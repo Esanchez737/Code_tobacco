@@ -373,6 +373,21 @@ function loadTutorial() {
     document.getElementById('prevBtn').disabled = tutorialIndex === 0;
 }
 
+function startTutorial() {
+    document.getElementById('menu').classList.add('hidden');
+    document.getElementById('badgePanel').classList.add('hidden');
+    document.getElementById('tutorial').classList.remove('hidden');
+    tutorialIndex = 0;
+    loadTutorial();
+}
+
+function prevTutorial() {
+    if (tutorialIndex > 0) {
+        tutorialIndex--;
+        loadTutorial();
+    }
+}
+
 function nextTutorial() {
     tutorialIndex++;
     if (tutorialIndex < tutorialSteps.length) {
