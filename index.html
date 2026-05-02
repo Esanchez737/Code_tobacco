@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SAP Tobacco Code Trainer</title>
+<style>
+body{font-family:Arial,sans-serif;background:linear-gradient(135deg,#0f172a,#1e293b);color:white;margin:0;padding:20px;font-size:16px}
+.container{max-width:1000px;margin:auto;background:rgba(255,255,255,0.08);padding:25px;border-radius:20px}
+h1,h2,h3{text-align:center}
+.btn{display:block;width:100%;padding:12px;margin:8px 0;background:#2563eb;color:white;border:none;border-radius:10px;cursor:pointer;font-size:16px}
+.question{padding:20px;background:rgba(255,255,255,0.08);border-radius:12px;margin:20px 0}
+.hidden{display:none}
+input[type="text"]{width:100%;padding:10px;margin:10px 0;border-radius:5px;border:none;font-size:16px}
+button{cursor:pointer}
+@media (max-width: 768px) {
+    body{padding:10px;font-size:14px}
+    .container{padding:15px}
+    .question{padding:15px;margin:15px 0}
+    .btn{padding:10px;font-size:14px}
+    input[type="text"]{font-size:14px}
+    h1{font-size:24px}
+    h2{font-size:20px}
+    h3{font-size:18px}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>SAP Tobacco Code Trainer</h1>
+<div id="menu">
+<div class="question" style="padding:16px">
+<label style="display:block;margin-bottom:10px">Nivel:
+<select id="levelSelect" class="btn" onchange="updateLevelDescription()">
+<option value="basic">Básico</option>
+<option value="intermediate">Intermedio</option>
+<option value="advanced">Avanzado</option>
+</select>
+</label>
+<label style="display:block;margin-bottom:10px">Modo:
+<select id="modeSelect" class="btn" onchange="updateModeDescription()">
+<option value="codeToDesc">Código → Descripción</option>
+<option value="descToCode">Descripción → Código</option>
+</select>
+</label>
+<label style="display:block;margin-bottom:10px"><input id="timerToggle" type="checkbox" onchange="updateTimerLabel()" style="margin-right:8px">Contrarreloj</label>
+<p id="menuHint" style="margin:0;color:#cbd5e1">Elige nivel y modo, luego inicia el juego.</p>
+</div>
+<button id="startTutorialBtn" class="btn" onclick="startTutorial()" disabled>Tutorial interactivo</button>
+<button id="startQuizBtn" class="btn" onclick="startQuiz()" disabled>Iniciar juego</button>
+<button class="btn" onclick="showDecoder()">Decodificar Código</button>
+</div>
+
+<div id="badgePanel" class="question hidden">
+<h3>Insignias desbloqueadas</h3>
+<div id="badgeList" style="display:flex;flex-wrap:wrap;gap:10px"></div>
+<p id="bestScoreDisplay" style="margin-top:12px;color:#f8fafc">Mejor puntaje: 0</p>
+</div>
+
+<div id="decoder" class="question hidden">
+<h3>Decodificar Código SAP</h3>
+<p>Ingresa un código SAP completo (sin espacios) para ver su significado:</p>
+<input type="text" id="sapCodeInput" placeholder="Ej: HGRCPVD035530">
+<button class="btn" onclick="decodeSapCode()">Decodificar</button>
+<button class="btn" onclick="backToMenu()" style="margin-left: 10px;">Volver al Menú</button>
+<div id="decoderResult" style="margin-top: 10px;"></div>
+</div>
+
+<div id="tutorial" class="hidden">
+    <div id="tutorialProgress" style="margin-bottom: 10px; font-size: 14px;"></div>
+    <h2 id="tutorialTitle"></h2>
+    <div class="question" id="tutorialContent"></div>
+    <div style="margin-top: 20px;">
+        <button class="btn" id="prevBtn" onclick="prevTutorial()" style="margin-right: 10px;">Anterior</button>
+        <button class="btn" onclick="nextTutorial()">Siguiente</button>
+    </div>
+</div>
+
+<div id="quiz" class="hidden">
+<div id="status" class="question" style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;text-align:center">
+<div id="scoreDisplay">Puntaje: 0</div>
+<div id="streakDisplay">Racha: 0</div>
+<div id="progressDisplay" style="grid-column:1/-1">Progreso: 0/0</div>
+<div id="timerDisplay" class="hidden">Tiempo: 00</div>
+<div id="roundMessage" style="grid-column:1/-1;color:#a5f3fc;margin-top:8px"></div>
+<div id="progressBar" style="grid-column:1/-1;background:rgba(255,255,255,0.12);border-radius:10px;height:18px;overflow:hidden;margin-top:10px">
+<div id="progressFill" style="width:0%;height:100%;background:#34d399;transition:width .3s"></div>
+</div>
+</div>
+<h2 id="levelTitle"></h2>
+<div class="question" id="questionBox"></div>
+<div id="answers"></div>
+<div id="feedback"></div>
+</div>
+</div>
+
+<script>
+let sapData = null;
+let tutorialSteps = [];
+let tutorialIndex = 0;
+const levelCategories = {
+    basic: ['grupo', 'tipo', 'pais'],
+    intermediate: ['variedad', 'zona', 'textura'],
+    advanced: ['clase', 'color', 'tamano', 'calidad']
+};
+const levelNames = {
+    basic: 'Básico',
+    intermediate: 'Intermedio',
+    advanced: 'Avanzado'
+};
+const badgeLabels = {
+    novato: 'Novato SAP',
+    racha3: 'Racha 3',
+    pais: 'Especial País',
+    nivelBasico: 'Nivel Básico completado',
+    avanzado: 'Desafío Avanzado completado'
+};
+const gameState = {
+    score: 0,
+    streak: 0,
+    correctCount: 0,
+    wrongCount: 0,
+    currentIndex: 0,
+    totalQuestions: 0,
+    questions: [],
+    level: 'basic',
+    mode: 'codeToDesc',
+    timerEnabled: false,
+    timeLeft: 0,
+    timerId: null,
+    sectionStatus: {},
+    badges: new Set(),
+    bestScore: 0
+};
+
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+function loadStoredState() {
+    try {
+        const savedBadges = JSON.parse(localStorage.getItem('sapTrainerBadges') || '[]');
+        savedBadges.forEach(id => gameState.badges.add(id));
+        gameState.bestScore = Number(localStorage.getItem('sapTrainerBestScore') || 0);
+    } catch (error) {
+        gameState.bestScore = 0;
+    }
+}
+
+function saveStoredState() {
+    localStorage.setItem('sapTrainerBadges', JSON.stringify([...gameState.badges]));
+    localStorage.setItem('sapTrainerBestScore', String(gameState.bestScore));
+}
+
+function updateStatus() {
+    document.getElementById('scoreDisplay').innerText = 'Puntaje: ' + gameState.score;
+    document.getElementById('streakDisplay').innerText = 'Racha: ' + gameState.streak;
+    document.getElementById('progressDisplay').innerText = `Progreso: ${Math.min(gameState.currentIndex + 1, gameState.totalQuestions)}/${gameState.totalQuestions}`;
+    const percent = gameState.totalQuestions ? ((gameState.currentIndex + 1) / gameState.totalQuestions) * 100 : 0;
+    document.getElementById('progressFill').style.width = percent + '%';
+}
+
+function updateBadgePanel() {
+    const badgeList = document.getElementById('badgeList');
+    badgeList.innerHTML = '';
+    [...gameState.badges].forEach(id => {
+        const badge = document.createElement('span');
+        badge.className = 'badge';
+        badge.style.background = 'rgba(56,189,248,0.15)';
+        badge.style.border = '1px solid rgba(56,189,248,0.4)';
+        badge.style.color = '#e0f2fe';
+        badge.style.padding = '8px 12px';
+        badge.style.borderRadius = '999px';
+        badge.textContent = badgeLabels[id] || id;
+        badgeList.appendChild(badge);
+    });
+    document.getElementById('bestScoreDisplay').innerText = 'Mejor puntaje: ' + gameState.bestScore;
+    document.getElementById('badgePanel').classList.toggle('hidden', gameState.badges.size === 0);
+}
+
+function updateLevelDescription() {
+    gameState.level = document.getElementById('levelSelect').value;
+    document.getElementById('menuHint').innerText = `Has seleccionado ${levelNames[gameState.level]}.`;
+}
+
+function updateModeDescription() {
+    gameState.mode = document.getElementById('modeSelect').value;
+    const modeLabel = gameState.mode === 'codeToDesc' ? 'Código → Descripción' : 'Descripción → Código';
+    document.getElementById('menuHint').innerText = `Modo ${modeLabel}.`;
+}
+
+function updateTimerLabel() {
+    gameState.timerEnabled = document.getElementById('timerToggle').checked;
+    document.getElementById('timerDisplay').classList.toggle('hidden', !gameState.timerEnabled);
+}
+
+function unlockBadge(id) {
+    if (!gameState.badges.has(id)) {
+        gameState.badges.add(id);
+        saveStoredState();
+        updateBadgePanel();
+    }
+}
+
+function getQuizOptions(section, correctValue, key = 'desc') {
+    const items = sapData[section] || [];
+    const values = items.map(item => item[key]);
+    const options = [correctValue];
+    const pool = values.filter(value => value !== correctValue);
+    shuffle(pool);
+    while (options.length < Math.min(3, values.length) && pool.length) {
+        options.push(pool.shift());
+    }
+    return shuffle(options);
+}
+
+function buildTutorialAndQuiz() {
+    tutorialSteps = [
+        {
+            title: 'Bienvenido al Entrenador de Códigos SAP para Tabaco',
+            content: 'Este tutorial te enseñará los códigos SAP utilizados en la industria del tabaco. Los códigos SAP son secuencias alfanuméricas que representan características específicas de los productos. Aprenderás a identificar y recordar cada componente.'
+        },
+        {
+            title: 'Estructura de un Código SAP',
+            content: 'Un código SAP completo consta de 11 categorías: Grupo, Proceso, Tipo, País, Variedad, Zona, Textura, Clase, Color, Tamaño y Calidad. Cada categoría tiene un código único. Por ejemplo: <br><br><strong>H P2 T NI H E 1 2 0 3 1</strong><br><br>Donde:<br>- H = Hoja<br>- P2 = Proceso<br>- T = Tipo<br>- NI = País<br>- H = Variedad<br>- E = Zona<br>- 1 = Textura<br>- 2 = Clase<br>- 0 = Color<br>- 3 = Tamaño<br>- 1 = Calidad<br>'
+        },
+        {
+            title: 'Cómo Jugar',
+            content: 'El juego tiene tres niveles: Básico (códigos simples), Intermedio y Avanzado. Dos modos: "Código → Descripción" (identificar qué significa un código) y "Descripción → Código" (encontrar el código correcto). Puedes activar el modo contrarreloj para más desafío. Gana puntos, rachas y badges por tu desempeño.'
+        }
+    ];
+    Object.keys(sapData).forEach(section => {
+        const items = sapData[section] || [];
+        let content = `<h3>Códigos de ${section.toUpperCase()}:</h3><ul>`;
+        items.forEach(item => {
+            content += `<li><strong>${item.code}</strong> = ${item.desc}</li>`;
+        });
+        content += '</ul>';
+        // Generar código de ejemplo con la sección resaltada
+        const exampleCode = generateRandomSapCode(section, items[0].code); // Usar el primer ítem para el ejemplo
+        const highlightedCode = highlightSegmentInCode(exampleCode, items[0].code, section);
+        content += `<br><h3>Ejemplo de Código SAP con ${section.toUpperCase()} resaltado:</h3>`;
+        content += `<div style="font-family: monospace; font-size: 18px; margin: 10px 0;">${highlightedCode}</div>`;
+        content += `<p>La parte resaltada en amarillo corresponde a la categoría ${section.toUpperCase()}.</p>`;
+        tutorialSteps.push({
+            title: section.toUpperCase(),
+            content: content
+        });
+    });
+    tutorialSteps.push({
+        title: '¡Listo para Jugar!',
+        content: 'Ahora conoces todos los códigos agrupados por categorías. Haz clic en "Siguiente" para volver al menú principal y comenzar tu entrenamiento. ¡Buena suerte!'
+    });
+}
+
+function buildRoundQuestions() {
+    const sections = levelCategories[gameState.level] || [];
+    let allQuestions = [];
+    sections.forEach(section => {
+        (sapData[section] || []).forEach(item => {
+            // Generar código SAP completo con el segmento específico
+            const codeData = generateRandomSapCode(section, item.code);
+            const highlightedCode = highlightSegmentInCode(codeData, item.code, section);
+
+            if (gameState.mode === 'codeToDesc') {
+                allQuestions.push({
+                    section,
+                    qText: `¿Qué significa ${item.code}?`,
+                    fullCode: highlightedCode,
+                    answer: item.desc,
+                    options: getQuizOptions(section, item.desc, 'desc')
+                });
+            } else {
+                allQuestions.push({
+                    section,
+                    qText: `¿Qué código corresponde a ${item.desc}?`,
+                    fullCode: '',
+                    answer: item.code,
+                    options: getQuizOptions(section, item.code, 'code')
+                });
+            }
+        });
+    });
+    gameState.questions = shuffle(allQuestions).slice(0, Math.min(10, allQuestions.length));
+    gameState.totalQuestions = gameState.questions.length;
+    gameState.currentIndex = 0;
+    gameState.sectionStatus = {};
+    gameState.correctCount = 0;
+    gameState.wrongCount = 0;
+}
+
+function generateRandomSapCode(targetSection, targetCode) {
+    const categories = ['grupo', 'proceso', 'tipo', 'pais', 'variedad', 'zona', 'textura', 'clase', 'color', 'tamano', 'calidad'];
+    let code = '';
+    let segments = {};
+    categories.forEach(cat => {
+        const items = sapData[cat] || [];
+        if (items.length > 0) {
+            let selectedCode;
+            if (cat === targetSection) {
+                selectedCode = targetCode;
+            } else {
+                const randomItem = items[Math.floor(Math.random() * items.length)];
+                selectedCode = randomItem.code;
+            }
+            segments[cat] = selectedCode;
+            code += selectedCode;
+        }
+    });
+    return { code, segments };
+}
+
+function highlightSegmentInCode(codeData, segment, section) {
+    const { code, segments } = codeData;
+    const categoryOrder = ['grupo', 'proceso', 'tipo', 'pais', 'variedad', 'zona', 'textura', 'clase', 'color', 'tamano', 'calidad'];
+    let startPos = 0;
+    for (let cat of categoryOrder) {
+        if (cat === section) {
+            const highlighted = segments[cat];
+            const before = code.substring(0, startPos);
+            const after = code.substring(startPos + highlighted.length);
+            return `${before}<span style="background-color: rgba(255,255,0,0.3); font-weight: bold;">${highlighted}</span>${after}`;
+        }
+        startPos += segments[cat] ? segments[cat].length : 0;
+    }
+    return code;
+}
+
+function loadSapData() {
+    fetch('sap_data.json').then(response => {
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        return response.json();
+    }).then(data => {
+        sapData = data;
+        loadStoredState();
+        buildTutorialAndQuiz();
+        updateLevelDescription();
+        updateModeDescription();
+        updateBadgePanel();
+        document.getElementById('startTutorialBtn').disabled = false;
+        document.getElementById('startQuizBtn').disabled = false;
+    }).catch(error => {
+        console.error('No se pudo cargar sap_data.json', error);
+        const menu = document.getElementById('menu');
+        menu.innerHTML = '<h2 style="color:#f87171">Error cargando datos</h2><p>Revisa que <code>sap_data.json</code> exista y esté en la misma carpeta.</p>';
+    });
+}
+
+document.addEventListener('DOMContentLoaded', loadSapData);
+
+function showDecoder() {
+    document.getElementById('menu').classList.add('hidden');
+    document.getElementById('badgePanel').classList.add('hidden');
+    document.getElementById('decoder').classList.remove('hidden');
+    document.getElementById('sapCodeInput').focus();
+}
+
+function backToMenu() {
+    document.getElementById('decoder').classList.add('hidden');
+    document.getElementById('menu').classList.remove('hidden');
+    document.getElementById('badgePanel').classList.remove('hidden');
+}
+
+function loadTutorial() {
+    const step = tutorialSteps[tutorialIndex];
+    document.getElementById('tutorialTitle').innerText = step.title;
+    document.getElementById('tutorialContent').innerHTML = step.content;
+    document.getElementById('tutorialProgress').innerText = `Paso ${tutorialIndex + 1} de ${tutorialSteps.length}`;
+    document.getElementById('prevBtn').disabled = tutorialIndex === 0;
+}
+
+function nextTutorial() {
+    tutorialIndex++;
+    if (tutorialIndex < tutorialSteps.length) {
+        loadTutorial();
+    } else {
+        // Volver al menú
+        document.getElementById('tutorial').classList.add('hidden');
+        document.getElementById('menu').classList.remove('hidden');
+        document.getElementById('badgePanel').classList.remove('hidden');
+        tutorialIndex = 0;
+    }
+}
+
+function decodeSapCode() {
+    const code = document.getElementById('sapCodeInput').value.trim().toUpperCase();
+    const resultDiv = document.getElementById('decoderResult');
+    if (code.length === 0) {
+        resultDiv.innerHTML = '<p style="color:#ef4444">Ingresa un código SAP.</p>';
+        return;
+    }
+    const categories = ['grupo', 'proceso', 'tipo', 'pais', 'variedad', 'zona', 'textura', 'clase', 'color', 'tamano', 'calidad'];
+    let remainingCode = code;
+    let meanings = [];
+    let errors = [];
+    for (let i = 0; i < categories.length; i++) {
+        const cat = categories[i];
+        const items = sapData[cat] || [];
+        let found = false;
+        for (let len = 1; len <= 2 && len <= remainingCode.length; len++) {
+            const segment = remainingCode.substring(0, len);
+            const item = items.find(it => it.code === segment);
+            if (item) {
+                meanings.push(`${cat.toUpperCase()}: ${item.desc} (${segment})`);
+                remainingCode = remainingCode.substring(len);
+                found = true;
+                break;
+            }
+        }
+        if (!found) {
+            errors.push(`No se encontró código válido para ${cat.toUpperCase()} en '${remainingCode}'`);
+            break;
+        }
+    }
+    if (remainingCode.length > 0) {
+        errors.push(`Código restante no procesado: '${remainingCode}'`);
+    }
+    if (errors.length === 0) {
+        resultDiv.innerHTML = '<h4>Código Válido:</h4><ul>' + meanings.map(m => `<li>${m}</li>`).join('') + '</ul>';
+    } else {
+        resultDiv.innerHTML = '<h4>Errores Encontrados:</h4><ul>' + errors.map(e => `<li style="color:#ef4444">${e}</li>`).join('') + '</ul>';
+    }
+}
+
+function startQuiz() {
+    if (!sapData) return;
+    gameState.level = document.getElementById('levelSelect').value;
+    gameState.mode = document.getElementById('modeSelect').value;
+    gameState.timerEnabled = document.getElementById('timerToggle').checked;
+    document.getElementById('menu').classList.add('hidden');
+    document.getElementById('badgePanel').classList.add('hidden');
+    document.getElementById('quiz').classList.remove('hidden');
+    gameState.score = 0;
+    gameState.streak = 0;
+    buildRoundQuestions();
+    loadQuestion();
+}
+
+function startTimer() {
+    stopTimer();
+    if (!gameState.timerEnabled) return;
+    gameState.timeLeft = 15;
+    document.getElementById('timerDisplay').innerText = 'Tiempo: ' + gameState.timeLeft + 's';
+    document.getElementById('timerDisplay').classList.remove('hidden');
+    gameState.timerId = setInterval(() => {
+        gameState.timeLeft -= 1;
+        document.getElementById('timerDisplay').innerText = 'Tiempo: ' + gameState.timeLeft + 's';
+        if (gameState.timeLeft <= 0) {
+            stopTimer();
+            processAnswer(null, true);
+        }
+    }, 1000);
+}
+
+function stopTimer() {
+    if (gameState.timerId) {
+        clearInterval(gameState.timerId);
+        gameState.timerId = null;
+    }
+}
+
+function createAnswerButtons(options) {
+    const answers = document.getElementById('answers');
+    answers.innerHTML = '';
+    options.forEach(opt => {
+        const button = document.createElement('button');
+        button.className = 'btn';
+        button.type = 'button';
+        button.textContent = opt;
+        button.addEventListener('click', () => processAnswer(opt));
+        answers.appendChild(button);
+    });
+}
+
+function loadQuestion() {
+    stopTimer();
+    const question = gameState.questions[gameState.currentIndex];
+    document.getElementById('levelTitle').innerText = `${levelNames[gameState.level]} - ${gameState.mode === 'codeToDesc' ? 'Código → Descripción' : 'Descripción → Código'}`;
+    let questionContent = '';
+    if (gameState.mode === 'codeToDesc' && question.fullCode) {
+        questionContent += `<div style="font-family: monospace; font-size: 18px; margin-bottom: 10px;">Código SAP: ${question.fullCode}</div>`;
+    }
+    questionContent += question.qText;
+    document.getElementById('questionBox').innerHTML = questionContent;
+    createAnswerButtons(question.options);
+    document.getElementById('feedback').innerHTML = '';
+    document.getElementById('roundMessage').innerText = `Ronda ${gameState.currentIndex + 1} de ${gameState.totalQuestions}`;
+    updateStatus();
+    if (gameState.timerEnabled) startTimer(); else document.getElementById('timerDisplay').classList.add('hidden');
+}
+
+function processAnswer(selected, timedOut = false) {
+    stopTimer();
+    const question = gameState.questions[gameState.currentIndex];
+    const correct = !timedOut && selected === question.answer;
+    const section = question.section;
+    gameState.sectionStatus[section] = gameState.sectionStatus[section] || { wrong: false };
+
+    if (correct) {
+        gameState.score += 10;
+        gameState.streak += 1;
+        gameState.correctCount += 1;
+        document.getElementById('feedback').innerHTML = '<h3 style="color:lightgreen">Correcto</h3>';
+        if (gameState.streak >= 3) unlockBadge('racha3');
+    } else {
+        gameState.score = Math.max(0, gameState.score - 3);
+        gameState.streak = 0;
+        gameState.wrongCount += 1;
+        gameState.sectionStatus[section].wrong = true;
+        const message = timedOut ? 'Se acabó el tiempo' : 'Incorrecto';
+        document.getElementById('feedback').innerHTML = `<h3 style="color:#fca5a5">${message}: ${question.answer}</h3>`;
+    }
+
+    if (gameState.correctCount >= 5) unlockBadge('novato');
+
+    const nextIndex = gameState.currentIndex + 1;
+    const isFinal = nextIndex >= gameState.totalQuestions;
+
+    if (isFinal) {
+        const sections = levelCategories[gameState.level] || [];
+        if (gameState.level === 'basic') unlockBadge('nivelBasico');
+        if (gameState.level === 'advanced' && gameState.wrongCount === 0) unlockBadge('avanzado');
+        if (sections.includes('pais') && !gameState.sectionStatus['pais']?.wrong) unlockBadge('pais');
+    }
+
+    gameState.currentIndex = nextIndex;
+    if (!isFinal) {
+        setTimeout(loadQuestion, 1000);
+    } else {
+        setTimeout(showResults, 1000);
+    }
+}
+
+function showResults() {
+    stopTimer();
+    if (gameState.score > gameState.bestScore) {
+        gameState.bestScore = gameState.score;
+        saveStoredState();
+    }
+    updateStatus();
+    updateBadgePanel();
+    document.getElementById('quiz').innerHTML = `<h2>Capacitación completada</h2><div class="question" style="padding:20px"><p>Puntaje final: ${gameState.score}</p><p>Aciertos: ${gameState.correctCount} | Errores: ${gameState.wrongCount}</p></div><button class="btn" onclick="location.reload()">Volver al inicio</button>`;
+}
+</script>
+</body>
+</html>

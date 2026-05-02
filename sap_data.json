@@ -1,0 +1,380 @@
+{
+  "grupo": [
+    {
+      "code": "H",
+      "desc": "HOJA"
+    }
+  ],
+  "proceso": [
+    {
+      "code": "GR",
+      "desc": "GREEN"
+    },
+    {
+      "code": "CU",
+      "desc": "CURADO"
+    },
+    {
+      "code": "F1",
+      "desc": "FERMENTACION 1"
+    },
+    {
+      "code": "F2",
+      "desc": "FERMENTACION 2"
+    },
+    {
+      "code": "F3",
+      "desc": "FERMENTACION 3"
+    },
+    {
+      "code": "FE",
+      "desc": "FERMENTADO"
+    },
+    {
+      "code": "SS",
+      "desc": "SORTING"
+    },
+    {
+      "code": "CC",
+      "desc": "CALDERA"
+    },
+    {
+      "code": "BU",
+      "desc": "BURROS"
+    },
+    {
+      "code": "P1",
+      "desc": "PACAS COMPRA"
+    },
+    {
+      "code": "P2",
+      "desc": "PACAS LISTAS"
+    },
+    {
+      "code": "RZ",
+      "desc": "REZAGO"
+    },
+    {
+      "code": "PR",
+      "desc": "PRODUCCION"
+    },
+    {
+      "code": "PP",
+      "desc": "PREPARACION"
+    },
+    {
+      "code": "SU",
+      "desc": "SUELO"
+    },
+    {
+      "code": "PU",
+      "desc": "PUROS"
+    },
+    {
+      "code": "MA",
+      "desc": "MAQUINA"
+    },
+    {
+      "code": "TS",
+      "desc": "TRIPA DE SELECCION Y REZAGO"
+    }
+  ],
+  "tipo": [
+    {
+      "code": "C",
+      "desc": "CAPA"
+    },
+    {
+      "code": "B",
+      "desc": "BANDA"
+    },
+    {
+      "code": "T",
+      "desc": "TRIPA"
+    },
+    {
+      "code": "P",
+      "desc": "PICADURA"
+    },
+    {
+      "code": "R",
+      "desc": "RECORTE"
+    },
+    {
+      "code": "V",
+      "desc": "VENA"
+    },
+    {
+      "code": "Q",
+      "desc": "BOQUILLA"
+    },
+    {
+      "code": "M",
+      "desc": "RAMA"
+    }
+  ],
+  "pais": [
+    {
+      "code": "EC",
+      "desc": "ECUADOR"
+    },
+    {
+      "code": "US",
+      "desc": "USA"
+    },
+    {
+      "code": "CM",
+      "desc": "CAMERUN"
+    },
+    {
+      "code": "MX",
+      "desc": "MEXICO"
+    },
+    {
+      "code": "IN",
+      "desc": "INDONESIA"
+    },
+    {
+      "code": "BR",
+      "desc": "BRASIL"
+    },
+    {
+      "code": "DO",
+      "desc": "REP. DOMINICANA"
+    },
+    {
+      "code": "NI",
+      "desc": "NICARAGUA"
+    },
+    {
+      "code": "PE",
+      "desc": "PERU"
+    },
+    {
+      "code": "0",
+      "desc": "NO APLICA"
+    },
+    {
+      "code": "HN",
+      "desc": "HONDURAS"
+    },
+    {
+      "code": "P",
+      "desc": "PILOTO CUBANO"
+    }
+  ],
+  "variedad": [
+    {
+      "code": "H",
+      "desc": "HABANO"
+    },
+    {
+      "code": "S",
+      "desc": "SUMATRA"
+    },
+    {
+      "code": "Z",
+      "desc": "ZUMATRA (Diff. seed)"
+    },
+    {
+      "code": "C",
+      "desc": "CONNECTICUT"
+    },
+    {
+      "code": "E",
+      "desc": "PESILVANIA"
+    },
+    {
+      "code": "R",
+      "desc": "BROAD LEAF"
+    },
+    {
+      "code": "N",
+      "desc": "CAMERUN"
+    },
+    {
+      "code": "D",
+      "desc": "NEGRO SAN ANDRES"
+    },
+    {
+      "code": "B",
+      "desc": "BESUKI"
+    },
+    {
+      "code": "A",
+      "desc": "ARAPIRACA"
+    },
+    {
+      "code": "M",
+      "desc": "MATA FINA / NORTE"
+    },
+    {
+      "code": "0",
+      "desc": "NO APLICA"
+    }
+  ],
+  "zona": [
+    {
+      "code": "E",
+      "desc": "ESTELI"
+    },
+    {
+      "code": "C",
+      "desc": "CONDEGA"
+    },
+    {
+      "code": "S",
+      "desc": "SOMOTO"
+    },
+    {
+      "code": "P",
+      "desc": "PASMATA"
+    },
+    {
+      "code": "J",
+      "desc": "JALAPA"
+    },
+    {
+      "code": "O",
+      "desc": "OMETEPE"
+    },
+    {
+      "code": "0",
+      "desc": "NO APLICA"
+    },
+    {
+      "code": "M",
+      "desc": "MATAFINA"
+    },
+    {
+      "code": "N",
+      "desc": "MATANORTE"
+    }
+  ],
+  "textura": [
+    {
+      "code": "3",
+      "desc": "LIGERO"
+    },
+    {
+      "code": "2",
+      "desc": "VISO"
+    },
+    {
+      "code": "1",
+      "desc": "SECO"
+    },
+    {
+      "code": "0",
+      "desc": "NO APLICA"
+    }
+  ],
+  "clase": [
+    {
+      "code": "1",
+      "desc": "SANO (CAP/BAN/TRI)"
+    },
+    {
+      "code": "2",
+      "desc": "ROTO (TRI)"
+    },
+    {
+      "code": "3",
+      "desc": "XL (CAP)"
+    },
+    {
+      "code": "4",
+      "desc": "MEDIA (CAP/BAN)"
+    },
+    {
+      "code": "5",
+      "desc": "RIPIADO (TRI)"
+    },
+    {
+      "code": "0",
+      "desc": "NO APLICA (ALL)"
+    }
+  ],
+  "color": [
+    {
+      "code": "5",
+      "desc": "MADURO PARA CALDERA"
+    },
+    {
+      "code": "4",
+      "desc": "OSCURA"
+    },
+    {
+      "code": "3",
+      "desc": "ROSADA"
+    },
+    {
+      "code": "2",
+      "desc": "ROSADA CLARA"
+    },
+    {
+      "code": "1",
+      "desc": "CLARA"
+    },
+    {
+      "code": "0",
+      "desc": "NO APLICA"
+    }
+  ],
+  "tamano": [
+    {
+      "code": "1",
+      "desc": "LARGA"
+    },
+    {
+      "code": "2",
+      "desc": "MEDIANA"
+    },
+    {
+      "code": "3",
+      "desc": "CORTA"
+    },
+    {
+      "code": "4",
+      "desc": "PETIT"
+    },
+    {
+      "code": "0",
+      "desc": "NO APLICA"
+    }
+  ],
+  "calidad": [
+    {
+      "code": "1",
+      "desc": "Premium (CAP/BAN/TRI)"
+    },
+    {
+      "code": "2",
+      "desc": "Sub-Premium (CAP/BAN/TRI)"
+    },
+    {
+      "code": "3",
+      "desc": "Mazos (CAP/BAN/TRI)"
+    },
+    {
+      "code": "6",
+      "desc": "NEGRO (CARBONIZED)"
+    },
+    {
+      "code": "7",
+      "desc": "MANCHADO/PINTO"
+    },
+    {
+      "code": "8",
+      "desc": "Mohoso (CAP/BAN/TRI)"
+    },
+    {
+      "code": "9",
+      "desc": "Rechasos (CAP/BAN/TRI)"
+    },
+    {
+      "code": "0",
+      "desc": "NO APLICA"
+    }
+  ]
+}
