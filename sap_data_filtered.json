@@ -7,18 +7,6 @@
   ],
   "proceso": [
     {
-      "code": "BU",
-      "desc": "BURROS"
-    },
-    {
-      "code": "CC",
-      "desc": "CALDERA"
-    },
-    {
-      "code": "CU",
-      "desc": "CURADO"
-    },
-    {
       "code": "F1",
       "desc": "FERMENTACION 1"
     },
@@ -31,18 +19,6 @@
       "desc": "FERMENTACION 3"
     },
     {
-      "code": "FE",
-      "desc": "FERMENTADO"
-    },
-    {
-      "code": "GR",
-      "desc": "GREEN"
-    },
-    {
-      "code": "MA",
-      "desc": "MAQUINA"
-    },
-    {
       "code": "P1",
       "desc": "PACAS COMPRA"
     },
@@ -51,28 +27,8 @@
       "desc": "PACAS LISTAS"
     },
     {
-      "code": "PP",
-      "desc": "PREPARACION"
-    },
-    {
-      "code": "PR",
-      "desc": "PRODUCCION"
-    },
-    {
-      "code": "PU",
-      "desc": "PUROS"
-    },
-    {
       "code": "RZ",
       "desc": "REZAGO"
-    },
-    {
-      "code": "SS",
-      "desc": "SORTING"
-    },
-    {
-      "code": "SU",
-      "desc": "SUELO"
     },
     {
       "code": "TS",
@@ -89,16 +45,8 @@
       "desc": "CAPA"
     },
     {
-      "code": "M",
-      "desc": "RAMA"
-    },
-    {
       "code": "P",
       "desc": "PICADURA"
-    },
-    {
-      "code": "Q",
-      "desc": "BOQUILLA"
     },
     {
       "code": "R",
@@ -107,17 +55,9 @@
     {
       "code": "T",
       "desc": "TRIPA"
-    },
-    {
-      "code": "V",
-      "desc": "VENA"
     }
   ],
   "pais": [
-    {
-      "code": "0",
-      "desc": "NO APLICA"
-    },
     {
       "code": "BR",
       "desc": "BRASIL"
@@ -151,10 +91,6 @@
       "desc": "NICARAGUA"
     },
     {
-      "code": "P",
-      "desc": "PILOTO CUBANO"
-    },
-    {
       "code": "PE",
       "desc": "PERU"
     },
@@ -167,10 +103,6 @@
     {
       "code": "0",
       "desc": "NO APLICA"
-    },
-    {
-      "code": "A",
-      "desc": "ARAPIRACA"
     },
     {
       "code": "B",
@@ -241,14 +173,6 @@
     {
       "code": "LJ",
       "desc": "JAMASTRAN"
-    },
-    {
-      "code": "M",
-      "desc": "MATAFINA"
-    },
-    {
-      "code": "N",
-      "desc": "MATANORTE"
     },
     {
       "code": "O",
@@ -379,22 +303,6 @@
     {
       "code": "4",
       "desc": "BUNDLER"
-    },
-    {
-      "code": "6",
-      "desc": "NEGRO (CARBONIZED)"
-    },
-    {
-      "code": "7",
-      "desc": "MANCHADO/PINTO"
-    },
-    {
-      "code": "8",
-      "desc": "Mohoso (CAP/BAN/TRI)"
-    },
-    {
-      "code": "9",
-      "desc": "Rechasos (CAP/BAN/TRI)"
     }
   ]
 }

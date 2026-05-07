@@ -1,0 +1,3635 @@
+[
+  {
+    "Producto": "HF1BECS010000"
+  },
+  {
+    "Producto": "HF1CECS010000"
+  },
+  {
+    "Producto": "HF1CECZ010000"
+  },
+  {
+    "Producto": "HF1CUSE021410"
+  },
+  {
+    "Producto": "HF2BMXD024010"
+  },
+  {
+    "Producto": "HF2CMXD021410"
+  },
+  {
+    "Producto": "HF2CMXD021430"
+  },
+  {
+    "Producto": "HF2CMXD023410"
+  },
+  {
+    "Producto": "HF2CMXD024410"
+  },
+  {
+    "Producto": "HF2CUSE021410"
+  },
+  {
+    "Producto": "HF3BINB001020"
+  },
+  {
+    "Producto": "HF3CMXD021000"
+  },
+  {
+    "Producto": "HF3CMXD031000"
+  },
+  {
+    "Producto": "HP1BCMN021030"
+  },
+  {
+    "Producto": "HP1BCMN024010"
+  },
+  {
+    "Producto": "HP1BCMN024020"
+  },
+  {
+    "Producto": "HP1BCMN024030"
+  },
+  {
+    "Producto": "HP1BINB001010"
+  },
+  {
+    "Producto": "HP1BINB001020"
+  },
+  {
+    "Producto": "HP1BINB001030"
+  },
+  {
+    "Producto": "HP1BMXD021010"
+  },
+  {
+    "Producto": "HP1CMXD014110"
+  },
+  {
+    "Producto": "HP1PNI0000000"
+  },
+  {
+    "Producto": "HP1R00000500"
+  },
+  {
+    "Producto": "HP1RCMN000000"
+  },
+  {
+    "Producto": "HP1RECC000000"
+  },
+  {
+    "Producto": "HP1RECH000000"
+  },
+  {
+    "Producto": "HP1RECS000000"
+  },
+  {
+    "Producto": "HP1RINB000000"
+  },
+  {
+    "Producto": "HP1RNI0000000"
+  },
+  {
+    "Producto": "HP1TBRM021020"
+  },
+  {
+    "Producto": "HP1TDOH012020"
+  },
+  {
+    "Producto": "HP1TDOP011010"
+  },
+  {
+    "Producto": "HP1TDOP011020"
+  },
+  {
+    "Producto": "HP1TDOP011030"
+  },
+  {
+    "Producto": "HP1TDOP012010"
+  },
+  {
+    "Producto": "HP1TDOP012020"
+  },
+  {
+    "Producto": "HP1TDOP012030"
+  },
+  {
+    "Producto": "HP1TDOP021010"
+  },
+  {
+    "Producto": "HP1TDOP021020"
+  },
+  {
+    "Producto": "HP1TDOP021030"
+  },
+  {
+    "Producto": "HP1TDOP022010"
+  },
+  {
+    "Producto": "HP1TDOP022020"
+  },
+  {
+    "Producto": "HP1TDOP022030"
+  },
+  {
+    "Producto": "HP1TDOP031020"
+  },
+  {
+    "Producto": "HP1TDOP031030"
+  },
+  {
+    "Producto": "HP1TDOP032010"
+  },
+  {
+    "Producto": "HP1TDOP032020"
+  },
+  {
+    "Producto": "HP1TDOP032030"
+  },
+  {
+    "Producto": "HP1TECH012013"
+  },
+  {
+    "Producto": "HP1TECH012023"
+  },
+  {
+    "Producto": "HP1TECH022013"
+  },
+  {
+    "Producto": "HP1TECH022023"
+  },
+  {
+    "Producto": "HP1THNHC11020"
+  },
+  {
+    "Producto": "HP1THNHC12020"
+  },
+  {
+    "Producto": "HP1THNHC21020"
+  },
+  {
+    "Producto": "HP1THNHC21030"
+  },
+  {
+    "Producto": "HP1THNHC22020"
+  },
+  {
+    "Producto": "HP1THNHC32030"
+  },
+  {
+    "Producto": "HP1THNHD11020"
+  },
+  {
+    "Producto": "HP1THNHD11030"
+  },
+  {
+    "Producto": "HP1THNHD11040"
+  },
+  {
+    "Producto": "HP1THNHD12020"
+  },
+  {
+    "Producto": "HP1THNHD12030"
+  },
+  {
+    "Producto": "HP1THNHD12040"
+  },
+  {
+    "Producto": "HP1THNHD15023"
+  },
+  {
+    "Producto": "HP1THNHD15033"
+  },
+  {
+    "Producto": "HP1THNHD21010"
+  },
+  {
+    "Producto": "HP1THNHD21020"
+  },
+  {
+    "Producto": "HP1THNHD21030"
+  },
+  {
+    "Producto": "HP1THNHD22020"
+  },
+  {
+    "Producto": "HP1THNHD22030"
+  },
+  {
+    "Producto": "HP1THNHD25033"
+  },
+  {
+    "Producto": "HP1THNHD32020"
+  },
+  {
+    "Producto": "HP1THNHLJ11020"
+  },
+  {
+    "Producto": "HP1THNHLJ11030"
+  },
+  {
+    "Producto": "HP1THNHLJ12020"
+  },
+  {
+    "Producto": "HP1THNHLJ12030"
+  },
+  {
+    "Producto": "HP1THNHLJ15023"
+  },
+  {
+    "Producto": "HP1THNHLJ15033"
+  },
+  {
+    "Producto": "HP1THNHLJ21020"
+  },
+  {
+    "Producto": "HP1THNHLJ21030"
+  },
+  {
+    "Producto": "HP1THNHLJ22020"
+  },
+  {
+    "Producto": "HP1THNHLJ22030"
+  },
+  {
+    "Producto": "HP1THNHLJ25023"
+  },
+  {
+    "Producto": "HP1THNHLJ25033"
+  },
+  {
+    "Producto": "HP1THNHLJ31020"
+  },
+  {
+    "Producto": "HP1THNHLJ31030"
+  },
+  {
+    "Producto": "HP1THNHLJ32020"
+  },
+  {
+    "Producto": "HP1THNHLJ32030"
+  },
+  {
+    "Producto": "HP1THNHLJ35023"
+  },
+  {
+    "Producto": "HP1THNHLJ35033"
+  },
+  {
+    "Producto": "HP1TINB001020"
+  },
+  {
+    "Producto": "HP1TINB001030"
+  },
+  {
+    "Producto": "HP1TNIHC11020"
+  },
+  {
+    "Producto": "HP1TNIHC11023"
+  },
+  {
+    "Producto": "HP1TNIHC11030"
+  },
+  {
+    "Producto": "HP1TNIHC11033"
+  },
+  {
+    "Producto": "HP1TNIHC11040"
+  },
+  {
+    "Producto": "HP1TNIHC11043"
+  },
+  {
+    "Producto": "HP1TNIHC12020"
+  },
+  {
+    "Producto": "HP1TNIHC12023"
+  },
+  {
+    "Producto": "HP1TNIHC12030"
+  },
+  {
+    "Producto": "HP1TNIHC12033"
+  },
+  {
+    "Producto": "HP1TNIHC12040"
+  },
+  {
+    "Producto": "HP1TNIHC12043"
+  },
+  {
+    "Producto": "HP1TNIHC15023"
+  },
+  {
+    "Producto": "HP1TNIHC15033"
+  },
+  {
+    "Producto": "HP1TNIHC21010"
+  },
+  {
+    "Producto": "HP1TNIHC21020"
+  },
+  {
+    "Producto": "HP1TNIHC21030"
+  },
+  {
+    "Producto": "HP1TNIHC21033"
+  },
+  {
+    "Producto": "HP1TNIHC21040"
+  },
+  {
+    "Producto": "HP1TNIHC22020"
+  },
+  {
+    "Producto": "HP1TNIHC22023"
+  },
+  {
+    "Producto": "HP1TNIHC22030"
+  },
+  {
+    "Producto": "HP1TNIHC22033"
+  },
+  {
+    "Producto": "HP1TNIHC22040"
+  },
+  {
+    "Producto": "HP1TNIHC25023"
+  },
+  {
+    "Producto": "HP1TNIHC25033"
+  },
+  {
+    "Producto": "HP1TNIHC31010"
+  },
+  {
+    "Producto": "HP1TNIHC31020"
+  },
+  {
+    "Producto": "HP1TNIHC31030"
+  },
+  {
+    "Producto": "HP1TNIHC31040"
+  },
+  {
+    "Producto": "HP1TNIHC32020"
+  },
+  {
+    "Producto": "HP1TNIHC32023"
+  },
+  {
+    "Producto": "HP1TNIHC32030"
+  },
+  {
+    "Producto": "HP1TNIHC32033"
+  },
+  {
+    "Producto": "HP1TNIHC35023"
+  },
+  {
+    "Producto": "HP1TNIHC35033"
+  },
+  {
+    "Producto": "HP1TNIHE11010"
+  },
+  {
+    "Producto": "HP1TNIHE11020"
+  },
+  {
+    "Producto": "HP1TNIHE11030"
+  },
+  {
+    "Producto": "HP1TNIHE11040"
+  },
+  {
+    "Producto": "HP1TNIHE12020"
+  },
+  {
+    "Producto": "HP1TNIHE12030"
+  },
+  {
+    "Producto": "HP1TNIHE12040"
+  },
+  {
+    "Producto": "HP1TNIHE15023"
+  },
+  {
+    "Producto": "HP1TNIHE15033"
+  },
+  {
+    "Producto": "HP1TNIHE21010"
+  },
+  {
+    "Producto": "HP1TNIHE21020"
+  },
+  {
+    "Producto": "HP1TNIHE21030"
+  },
+  {
+    "Producto": "HP1TNIHE21040"
+  },
+  {
+    "Producto": "HP1TNIHE22020"
+  },
+  {
+    "Producto": "HP1TNIHE22023"
+  },
+  {
+    "Producto": "HP1TNIHE22030"
+  },
+  {
+    "Producto": "HP1TNIHE22033"
+  },
+  {
+    "Producto": "HP1TNIHE22040"
+  },
+  {
+    "Producto": "HP1TNIHE25023"
+  },
+  {
+    "Producto": "HP1TNIHE25033"
+  },
+  {
+    "Producto": "HP1TNIHE31020"
+  },
+  {
+    "Producto": "HP1TNIHE32020"
+  },
+  {
+    "Producto": "HP1TNIHE32030"
+  },
+  {
+    "Producto": "HP1TNIHE32033"
+  },
+  {
+    "Producto": "HP1TNIHE32040"
+  },
+  {
+    "Producto": "HP1TNIHE35023"
+  },
+  {
+    "Producto": "HP1TNIHE35033"
+  },
+  {
+    "Producto": "HP1TNIHJ11020"
+  },
+  {
+    "Producto": "HP1TNIHJ11030"
+  },
+  {
+    "Producto": "HP1TNIHJ11040"
+  },
+  {
+    "Producto": "HP1TNIHJ12020"
+  },
+  {
+    "Producto": "HP1TNIHJ12023"
+  },
+  {
+    "Producto": "HP1TNIHJ12030"
+  },
+  {
+    "Producto": "HP1TNIHJ12033"
+  },
+  {
+    "Producto": "HP1TNIHJ12040"
+  },
+  {
+    "Producto": "HP1TNIHJ15023"
+  },
+  {
+    "Producto": "HP1TNIHJ15033"
+  },
+  {
+    "Producto": "HP1TNIHJ21010"
+  },
+  {
+    "Producto": "HP1TNIHJ21020"
+  },
+  {
+    "Producto": "HP1TNIHJ21030"
+  },
+  {
+    "Producto": "HP1TNIHJ21040"
+  },
+  {
+    "Producto": "HP1TNIHJ22020"
+  },
+  {
+    "Producto": "HP1TNIHJ22023"
+  },
+  {
+    "Producto": "HP1TNIHJ22030"
+  },
+  {
+    "Producto": "HP1TNIHJ22033"
+  },
+  {
+    "Producto": "HP1TNIHJ22040"
+  },
+  {
+    "Producto": "HP1TNIHJ25023"
+  },
+  {
+    "Producto": "HP1TNIHJ25033"
+  },
+  {
+    "Producto": "HP1TNIHJ31010"
+  },
+  {
+    "Producto": "HP1TNIHJ31020"
+  },
+  {
+    "Producto": "HP1TNIHJ31030"
+  },
+  {
+    "Producto": "HP1TNIHJ31040"
+  },
+  {
+    "Producto": "HP1TNIHJ32020"
+  },
+  {
+    "Producto": "HP1TNIHJ32023"
+  },
+  {
+    "Producto": "HP1TNIHJ32030"
+  },
+  {
+    "Producto": "HP1TNIHJ32040"
+  },
+  {
+    "Producto": "HP1TNIHJ35023"
+  },
+  {
+    "Producto": "HP1TNIHJ35033"
+  },
+  {
+    "Producto": "HP1TNIHO11010"
+  },
+  {
+    "Producto": "HP1TNIHO11020"
+  },
+  {
+    "Producto": "HP1TNIHO11030"
+  },
+  {
+    "Producto": "HP1TNIHO12020"
+  },
+  {
+    "Producto": "HP1TNIHO12030"
+  },
+  {
+    "Producto": "HP1TNIHO21020"
+  },
+  {
+    "Producto": "HP1TNIHO21030"
+  },
+  {
+    "Producto": "HP1TNIHO22020"
+  },
+  {
+    "Producto": "HP1TNIHO22023"
+  },
+  {
+    "Producto": "HP1TNIHO31020"
+  },
+  {
+    "Producto": "HP1TNIHO31030"
+  },
+  {
+    "Producto": "HP1TNIHO32020"
+  },
+  {
+    "Producto": "HP1TNIHP11020"
+  },
+  {
+    "Producto": "HP1TNIHP12020"
+  },
+  {
+    "Producto": "HP1TNIHP12033"
+  },
+  {
+    "Producto": "HP1TNIHP15033"
+  },
+  {
+    "Producto": "HP1TNIHP21020"
+  },
+  {
+    "Producto": "HP1TNIHP21030"
+  },
+  {
+    "Producto": "HP1TNIHP22020"
+  },
+  {
+    "Producto": "HP1TNIHP22023"
+  },
+  {
+    "Producto": "HP1TNIHP22030"
+  },
+  {
+    "Producto": "HP1TNIHP22033"
+  },
+  {
+    "Producto": "HP1TNIHP22040"
+  },
+  {
+    "Producto": "HP1TNIHP25023"
+  },
+  {
+    "Producto": "HP1TNIHP25033"
+  },
+  {
+    "Producto": "HP1TNIHP31020"
+  },
+  {
+    "Producto": "HP1TNIHP31030"
+  },
+  {
+    "Producto": "HP1TNIHP32020"
+  },
+  {
+    "Producto": "HP1TNIHS11020"
+  },
+  {
+    "Producto": "HP1TNIHS11030"
+  },
+  {
+    "Producto": "HP1TNIHS11040"
+  },
+  {
+    "Producto": "HP1TNIHS12020"
+  },
+  {
+    "Producto": "HP1TNIHS12030"
+  },
+  {
+    "Producto": "HP1TNIHS15023"
+  },
+  {
+    "Producto": "HP1TNIHS15033"
+  },
+  {
+    "Producto": "HP1TNIHS21010"
+  },
+  {
+    "Producto": "HP1TNIHS21020"
+  },
+  {
+    "Producto": "HP1TNIHS21030"
+  },
+  {
+    "Producto": "HP1TNIHS21040"
+  },
+  {
+    "Producto": "HP1TNIHS22020"
+  },
+  {
+    "Producto": "HP1TNIHS22023"
+  },
+  {
+    "Producto": "HP1TNIHS22030"
+  },
+  {
+    "Producto": "HP1TNIHS22040"
+  },
+  {
+    "Producto": "HP1TNIHS25023"
+  },
+  {
+    "Producto": "HP1TNIHS25033"
+  },
+  {
+    "Producto": "HP1TNIHS31020"
+  },
+  {
+    "Producto": "HP1TNIHS31030"
+  },
+  {
+    "Producto": "HP1TNIHS31040"
+  },
+  {
+    "Producto": "HP1TNIHS32020"
+  },
+  {
+    "Producto": "HP1TNIHS32030"
+  },
+  {
+    "Producto": "HP1TNIHS32040"
+  },
+  {
+    "Producto": "HP1TNIHS35023"
+  },
+  {
+    "Producto": "HP1TNIHS35033"
+  },
+  {
+    "Producto": "HP1TPEH012030"
+  },
+  {
+    "Producto": "HP1TPEH022020"
+  },
+  {
+    "Producto": "HP1TPEH032020"
+  },
+  {
+    "Producto": "HP1TUSR011010"
+  },
+  {
+    "Producto": "HP2BCMN021020"
+  },
+  {
+    "Producto": "HP2BCMN024020"
+  },
+  {
+    "Producto": "HP2BECC001023"
+  },
+  {
+    "Producto": "HP2BECH011012"
+  },
+  {
+    "Producto": "HP2BECH011013"
+  },
+  {
+    "Producto": "HP2BECH011022"
+  },
+  {
+    "Producto": "HP2BECH011032"
+  },
+  {
+    "Producto": "HP2BECH011042"
+  },
+  {
+    "Producto": "HP2BECH012012"
+  },
+  {
+    "Producto": "HP2BECH014012"
+  },
+  {
+    "Producto": "HP2BECH014013"
+  },
+  {
+    "Producto": "HP2BECH014022"
+  },
+  {
+    "Producto": "HP2BECH014032"
+  },
+  {
+    "Producto": "HP2BECH014042"
+  },
+  {
+    "Producto": "HP2BECH021012"
+  },
+  {
+    "Producto": "HP2BECH021013"
+  },
+  {
+    "Producto": "HP2BECH021022"
+  },
+  {
+    "Producto": "HP2BECH021023"
+  },
+  {
+    "Producto": "HP2BECH021032"
+  },
+  {
+    "Producto": "HP2BECH021042"
+  },
+  {
+    "Producto": "HP2BECH021043"
+  },
+  {
+    "Producto": "HP2BECH022022"
+  },
+  {
+    "Producto": "HP2BECH024012"
+  },
+  {
+    "Producto": "HP2BECH024013"
+  },
+  {
+    "Producto": "HP2BECH024022"
+  },
+  {
+    "Producto": "HP2BECH024023"
+  },
+  {
+    "Producto": "HP2BECH024032"
+  },
+  {
+    "Producto": "HP2BECH024033"
+  },
+  {
+    "Producto": "HP2BECH024042"
+  },
+  {
+    "Producto": "HP2BECH024043"
+  },
+  {
+    "Producto": "HP2BECH031012"
+  },
+  {
+    "Producto": "HP2BECH031013"
+  },
+  {
+    "Producto": "HP2BECH031022"
+  },
+  {
+    "Producto": "HP2BECH031042"
+  },
+  {
+    "Producto": "HP2BECH031043"
+  },
+  {
+    "Producto": "HP2BECH034012"
+  },
+  {
+    "Producto": "HP2BECH034013"
+  },
+  {
+    "Producto": "HP2BECH034022"
+  },
+  {
+    "Producto": "HP2BECH034023"
+  },
+  {
+    "Producto": "HP2BECH034032"
+  },
+  {
+    "Producto": "HP2BECH034042"
+  },
+  {
+    "Producto": "HP2BECH034043"
+  },
+  {
+    "Producto": "HP2BECS011011"
+  },
+  {
+    "Producto": "HP2BECS011013"
+  },
+  {
+    "Producto": "HP2BECS011021"
+  },
+  {
+    "Producto": "HP2BECS011023"
+  },
+  {
+    "Producto": "HP2BECS011031"
+  },
+  {
+    "Producto": "HP2BECS011041"
+  },
+  {
+    "Producto": "HP2BECS012012"
+  },
+  {
+    "Producto": "HP2BECS012022"
+  },
+  {
+    "Producto": "HP2BECS012032"
+  },
+  {
+    "Producto": "HP2BECS014011"
+  },
+  {
+    "Producto": "HP2BECS014021"
+  },
+  {
+    "Producto": "HP2BECS014031"
+  },
+  {
+    "Producto": "HP2BECS014041"
+  },
+  {
+    "Producto": "HP2BECS021011"
+  },
+  {
+    "Producto": "HP2BECS021021"
+  },
+  {
+    "Producto": "HP2BECS021031"
+  },
+  {
+    "Producto": "HP2BECS021041"
+  },
+  {
+    "Producto": "HP2BECS022012"
+  },
+  {
+    "Producto": "HP2BECS022022"
+  },
+  {
+    "Producto": "HP2BECS022032"
+  },
+  {
+    "Producto": "HP2BECS024011"
+  },
+  {
+    "Producto": "HP2BECS024021"
+  },
+  {
+    "Producto": "HP2BECS024031"
+  },
+  {
+    "Producto": "HP2BECS024033"
+  },
+  {
+    "Producto": "HP2BECS024041"
+  },
+  {
+    "Producto": "HP2BECS031011"
+  },
+  {
+    "Producto": "HP2BECS031021"
+  },
+  {
+    "Producto": "HP2BECS031031"
+  },
+  {
+    "Producto": "HP2BECS031041"
+  },
+  {
+    "Producto": "HP2BECS034011"
+  },
+  {
+    "Producto": "HP2BECS034021"
+  },
+  {
+    "Producto": "HP2BECS034031"
+  },
+  {
+    "Producto": "HP2BECS034041"
+  },
+  {
+    "Producto": "HP2BECZ011013"
+  },
+  {
+    "Producto": "HP2BECZ011021"
+  },
+  {
+    "Producto": "HP2BECZ011023"
+  },
+  {
+    "Producto": "HP2BECZ014031"
+  },
+  {
+    "Producto": "HP2BECZ021021"
+  },
+  {
+    "Producto": "HP2BECZ024021"
+  },
+  {
+    "Producto": "HP2BECZ024031"
+  },
+  {
+    "Producto": "HP2BECZ024033"
+  },
+  {
+    "Producto": "HP2BHNHD11010"
+  },
+  {
+    "Producto": "HP2BHNHD14010"
+  },
+  {
+    "Producto": "HP2BHNHD24010"
+  },
+  {
+    "Producto": "HP2BHNHLJ11010"
+  },
+  {
+    "Producto": "HP2BINB001020"
+  },
+  {
+    "Producto": "HP2BMXD021010"
+  },
+  {
+    "Producto": "HP2BMXD021020"
+  },
+  {
+    "Producto": "HP2BMXD021030"
+  },
+  {
+    "Producto": "HP2BMXD024010"
+  },
+  {
+    "Producto": "HP2BMXD024020"
+  },
+  {
+    "Producto": "HP2BMXD024030"
+  },
+  {
+    "Producto": "HP2BNIHC11010"
+  },
+  {
+    "Producto": "HP2BNIHC11030"
+  },
+  {
+    "Producto": "HP2BNIHC14010"
+  },
+  {
+    "Producto": "HP2BNIHC14040"
+  },
+  {
+    "Producto": "HP2BNIHC21010"
+  },
+  {
+    "Producto": "HP2BNIHC24010"
+  },
+  {
+    "Producto": "HP2BNIHC24030"
+  },
+  {
+    "Producto": "HP2BNIHJ11010"
+  },
+  {
+    "Producto": "HP2BNIHJ14010"
+  },
+  {
+    "Producto": "HP2BNIHJ21020"
+  },
+  {
+    "Producto": "HP2BNIHS11020"
+  },
+  {
+    "Producto": "HP2BUSE021010"
+  },
+  {
+    "Producto": "HP2BUSE021020"
+  },
+  {
+    "Producto": "HP2BUSE021030"
+  },
+  {
+    "Producto": "HP2BUSE024010"
+  },
+  {
+    "Producto": "HP2BUSE024020"
+  },
+  {
+    "Producto": "HP2BUSE024030"
+  },
+  {
+    "Producto": "HP2BUSE031010"
+  },
+  {
+    "Producto": "HP2BUSE031020"
+  },
+  {
+    "Producto": "HP2BUSE034010"
+  },
+  {
+    "Producto": "HP2BUSE034020"
+  },
+  {
+    "Producto": "HP2BUSR021010"
+  },
+  {
+    "Producto": "HP2BUSR021030"
+  },
+  {
+    "Producto": "HP2BUSR024010"
+  },
+  {
+    "Producto": "HP2CCMN021410"
+  },
+  {
+    "Producto": "HP2CCMN021420"
+  },
+  {
+    "Producto": "HP2CCMN021430"
+  },
+  {
+    "Producto": "HP2CCMN023420"
+  },
+  {
+    "Producto": "HP2CECC001111"
+  },
+  {
+    "Producto": "HP2CECC001112"
+  },
+  {
+    "Producto": "HP2CECC001121"
+  },
+  {
+    "Producto": "HP2CECC001123"
+  },
+  {
+    "Producto": "HP2CECC001131"
+  },
+  {
+    "Producto": "HP2CECC001132"
+  },
+  {
+    "Producto": "HP2CECC001133"
+  },
+  {
+    "Producto": "HP2CECC001221"
+  },
+  {
+    "Producto": "HP2CECC001222"
+  },
+  {
+    "Producto": "HP2CECC001223"
+  },
+  {
+    "Producto": "HP2CECC001231"
+  },
+  {
+    "Producto": "HP2CECC001232"
+  },
+  {
+    "Producto": "HP2CECC001233"
+  },
+  {
+    "Producto": "HP2CECC001242"
+  },
+  {
+    "Producto": "HP2CECC001312"
+  },
+  {
+    "Producto": "HP2CECC001321"
+  },
+  {
+    "Producto": "HP2CECC001322"
+  },
+  {
+    "Producto": "HP2CECC001323"
+  },
+  {
+    "Producto": "HP2CECC001331"
+  },
+  {
+    "Producto": "HP2CECC001332"
+  },
+  {
+    "Producto": "HP2CECC001333"
+  },
+  {
+    "Producto": "HP2CECC001342"
+  },
+  {
+    "Producto": "HP2CECC003112"
+  },
+  {
+    "Producto": "HP2CECC003113"
+  },
+  {
+    "Producto": "HP2CECC003122"
+  },
+  {
+    "Producto": "HP2CECC003123"
+  },
+  {
+    "Producto": "HP2CECC003133"
+  },
+  {
+    "Producto": "HP2CECC003223"
+  },
+  {
+    "Producto": "HP2CECC003232"
+  },
+  {
+    "Producto": "HP2CECC003322"
+  },
+  {
+    "Producto": "HP2CECC003323"
+  },
+  {
+    "Producto": "HP2CECC003332"
+  },
+  {
+    "Producto": "HP2CECC003333"
+  },
+  {
+    "Producto": "HP2CECC003342"
+  },
+  {
+    "Producto": "HP2CECH011111"
+  },
+  {
+    "Producto": "HP2CECH011112"
+  },
+  {
+    "Producto": "HP2CECH011121"
+  },
+  {
+    "Producto": "HP2CECH011122"
+  },
+  {
+    "Producto": "HP2CECH011141"
+  },
+  {
+    "Producto": "HP2CECH011211"
+  },
+  {
+    "Producto": "HP2CECH011221"
+  },
+  {
+    "Producto": "HP2CECH011222"
+  },
+  {
+    "Producto": "HP2CECH011241"
+  },
+  {
+    "Producto": "HP2CECH013111"
+  },
+  {
+    "Producto": "HP2CECH013112"
+  },
+  {
+    "Producto": "HP2CECH013121"
+  },
+  {
+    "Producto": "HP2CECH013122"
+  },
+  {
+    "Producto": "HP2CECH013141"
+  },
+  {
+    "Producto": "HP2CECH013142"
+  },
+  {
+    "Producto": "HP2CECH013211"
+  },
+  {
+    "Producto": "HP2CECH013212"
+  },
+  {
+    "Producto": "HP2CECH013221"
+  },
+  {
+    "Producto": "HP2CECH013222"
+  },
+  {
+    "Producto": "HP2CECH013232"
+  },
+  {
+    "Producto": "HP2CECH013241"
+  },
+  {
+    "Producto": "HP2CECH013242"
+  },
+  {
+    "Producto": "HP2CECH014111"
+  },
+  {
+    "Producto": "HP2CECH014112"
+  },
+  {
+    "Producto": "HP2CECH014121"
+  },
+  {
+    "Producto": "HP2CECH014122"
+  },
+  {
+    "Producto": "HP2CECH014131"
+  },
+  {
+    "Producto": "HP2CECH014141"
+  },
+  {
+    "Producto": "HP2CECH014142"
+  },
+  {
+    "Producto": "HP2CECH014211"
+  },
+  {
+    "Producto": "HP2CECH014212"
+  },
+  {
+    "Producto": "HP2CECH014221"
+  },
+  {
+    "Producto": "HP2CECH014222"
+  },
+  {
+    "Producto": "HP2CECH014231"
+  },
+  {
+    "Producto": "HP2CECH014241"
+  },
+  {
+    "Producto": "HP2CECH014242"
+  },
+  {
+    "Producto": "HP2CECH021311"
+  },
+  {
+    "Producto": "HP2CECH021312"
+  },
+  {
+    "Producto": "HP2CECH021321"
+  },
+  {
+    "Producto": "HP2CECH021322"
+  },
+  {
+    "Producto": "HP2CECH021331"
+  },
+  {
+    "Producto": "HP2CECH021332"
+  },
+  {
+    "Producto": "HP2CECH021341"
+  },
+  {
+    "Producto": "HP2CECH023311"
+  },
+  {
+    "Producto": "HP2CECH023312"
+  },
+  {
+    "Producto": "HP2CECH023321"
+  },
+  {
+    "Producto": "HP2CECH023322"
+  },
+  {
+    "Producto": "HP2CECH023331"
+  },
+  {
+    "Producto": "HP2CECH023341"
+  },
+  {
+    "Producto": "HP2CECH023342"
+  },
+  {
+    "Producto": "HP2CECH024311"
+  },
+  {
+    "Producto": "HP2CECH024312"
+  },
+  {
+    "Producto": "HP2CECH024321"
+  },
+  {
+    "Producto": "HP2CECH024322"
+  },
+  {
+    "Producto": "HP2CECH024331"
+  },
+  {
+    "Producto": "HP2CECH024332"
+  },
+  {
+    "Producto": "HP2CECH024341"
+  },
+  {
+    "Producto": "HP2CECH024342"
+  },
+  {
+    "Producto": "HP2CECH031413"
+  },
+  {
+    "Producto": "HP2CECH031442"
+  },
+  {
+    "Producto": "HP2CECH033411"
+  },
+  {
+    "Producto": "HP2CECH033421"
+  },
+  {
+    "Producto": "HP2CECH033431"
+  },
+  {
+    "Producto": "HP2CECH033441"
+  },
+  {
+    "Producto": "HP2CECH033442"
+  },
+  {
+    "Producto": "HP2CECH034411"
+  },
+  {
+    "Producto": "HP2CECH034413"
+  },
+  {
+    "Producto": "HP2CECH034421"
+  },
+  {
+    "Producto": "HP2CECH034441"
+  },
+  {
+    "Producto": "HP2CECH034442"
+  },
+  {
+    "Producto": "HP2CECS011122"
+  },
+  {
+    "Producto": "HP2CECS011142"
+  },
+  {
+    "Producto": "HP2CECS011241"
+  },
+  {
+    "Producto": "HP2CECS013112"
+  },
+  {
+    "Producto": "HP2CECS013122"
+  },
+  {
+    "Producto": "HP2CECS013132"
+  },
+  {
+    "Producto": "HP2CECS013142"
+  },
+  {
+    "Producto": "HP2CECS013211"
+  },
+  {
+    "Producto": "HP2CECS013221"
+  },
+  {
+    "Producto": "HP2CECS013231"
+  },
+  {
+    "Producto": "HP2CECS013241"
+  },
+  {
+    "Producto": "HP2CECS014112"
+  },
+  {
+    "Producto": "HP2CECS014122"
+  },
+  {
+    "Producto": "HP2CECS014142"
+  },
+  {
+    "Producto": "HP2CECS014211"
+  },
+  {
+    "Producto": "HP2CECS014221"
+  },
+  {
+    "Producto": "HP2CECS014231"
+  },
+  {
+    "Producto": "HP2CECS014241"
+  },
+  {
+    "Producto": "HP2CECS021321"
+  },
+  {
+    "Producto": "HP2CECS021341"
+  },
+  {
+    "Producto": "HP2CECS023311"
+  },
+  {
+    "Producto": "HP2CECS023321"
+  },
+  {
+    "Producto": "HP2CECS023341"
+  },
+  {
+    "Producto": "HP2CECS024311"
+  },
+  {
+    "Producto": "HP2CECS024321"
+  },
+  {
+    "Producto": "HP2CECS024331"
+  },
+  {
+    "Producto": "HP2CECS024341"
+  },
+  {
+    "Producto": "HP2CECS031411"
+  },
+  {
+    "Producto": "HP2CECS033441"
+  },
+  {
+    "Producto": "HP2CECS034441"
+  },
+  {
+    "Producto": "HP2CECZ011112"
+  },
+  {
+    "Producto": "HP2CECZ011122"
+  },
+  {
+    "Producto": "HP2CECZ011211"
+  },
+  {
+    "Producto": "HP2CECZ011231"
+  },
+  {
+    "Producto": "HP2CECZ013122"
+  },
+  {
+    "Producto": "HP2CECZ013221"
+  },
+  {
+    "Producto": "HP2CECZ013241"
+  },
+  {
+    "Producto": "HP2CECZ014112"
+  },
+  {
+    "Producto": "HP2CECZ014122"
+  },
+  {
+    "Producto": "HP2CECZ014132"
+  },
+  {
+    "Producto": "HP2CECZ014142"
+  },
+  {
+    "Producto": "HP2CECZ014231"
+  },
+  {
+    "Producto": "HP2CECZ014241"
+  },
+  {
+    "Producto": "HP2CECZ021311"
+  },
+  {
+    "Producto": "HP2CECZ021321"
+  },
+  {
+    "Producto": "HP2CECZ023311"
+  },
+  {
+    "Producto": "HP2CECZ023321"
+  },
+  {
+    "Producto": "HP2CECZ023341"
+  },
+  {
+    "Producto": "HP2CECZ024311"
+  },
+  {
+    "Producto": "HP2CECZ024321"
+  },
+  {
+    "Producto": "HP2CECZ024331"
+  },
+  {
+    "Producto": "HP2CECZ024341"
+  },
+  {
+    "Producto": "HP2CINB001020"
+  },
+  {
+    "Producto": "HP2CMXD021410"
+  },
+  {
+    "Producto": "HP2CMXD021420"
+  },
+  {
+    "Producto": "HP2CMXD021430"
+  },
+  {
+    "Producto": "HP2CMXD021610"
+  },
+  {
+    "Producto": "HP2CMXD021620"
+  },
+  {
+    "Producto": "HP2CMXD023410"
+  },
+  {
+    "Producto": "HP2CMXD023420"
+  },
+  {
+    "Producto": "HP2CMXD023430"
+  },
+  {
+    "Producto": "HP2CMXD023610"
+  },
+  {
+    "Producto": "HP2CMXD023620"
+  },
+  {
+    "Producto": "HP2CMXD023630"
+  },
+  {
+    "Producto": "HP2CMXD024410"
+  },
+  {
+    "Producto": "HP2CMXD024420"
+  },
+  {
+    "Producto": "HP2CMXD024430"
+  },
+  {
+    "Producto": "HP2CMXD024610"
+  },
+  {
+    "Producto": "HP2CMXD024620"
+  },
+  {
+    "Producto": "HP2CMXD024630"
+  },
+  {
+    "Producto": "HP2CMXD031410"
+  },
+  {
+    "Producto": "HP2CMXD033410"
+  },
+  {
+    "Producto": "HP2CMXD033420"
+  },
+  {
+    "Producto": "HP2CMXD034410"
+  },
+  {
+    "Producto": "HP2CMXD034420"
+  },
+  {
+    "Producto": "HP2CNIHC13210"
+  },
+  {
+    "Producto": "HP2CNIHC23320"
+  },
+  {
+    "Producto": "HP2CUSE021410"
+  },
+  {
+    "Producto": "HP2CUSE021610"
+  },
+  {
+    "Producto": "HP2CUSE023410"
+  },
+  {
+    "Producto": "HP2CUSE023420"
+  },
+  {
+    "Producto": "HP2CUSE023430"
+  },
+  {
+    "Producto": "HP2CUSE023610"
+  },
+  {
+    "Producto": "HP2CUSE031410"
+  },
+  {
+    "Producto": "HP2CUSE033410"
+  },
+  {
+    "Producto": "HP2CUSE033420"
+  },
+  {
+    "Producto": "HP2CUSR021410"
+  },
+  {
+    "Producto": "HP2CUSR024410"
+  },
+  {
+    "Producto": "HP2CUSR031410"
+  },
+  {
+    "Producto": "HP2CUSR033410"
+  },
+  {
+    "Producto": "HP2CUSR034410"
+  },
+  {
+    "Producto": "HP2PNI0000000"
+  },
+  {
+    "Producto": "HP2R00000500"
+  },
+  {
+    "Producto": "HP2RCMN000000"
+  },
+  {
+    "Producto": "HP2RECC000000"
+  },
+  {
+    "Producto": "HP2RECS000000"
+  },
+  {
+    "Producto": "HP2RINB000000"
+  },
+  {
+    "Producto": "HP2RNI0000000"
+  },
+  {
+    "Producto": "HP2TBRM021022"
+  },
+  {
+    "Producto": "HP2TBRM021032"
+  },
+  {
+    "Producto": "HP2TBRM021033"
+  },
+  {
+    "Producto": "HP2TCMN012023"
+  },
+  {
+    "Producto": "HP2TDOH012010"
+  },
+  {
+    "Producto": "HP2TDOH012020"
+  },
+  {
+    "Producto": "HP2TDOH012030"
+  },
+  {
+    "Producto": "HP2TDOH022020"
+  },
+  {
+    "Producto": "HP2TDOP011011"
+  },
+  {
+    "Producto": "HP2TDOP011021"
+  },
+  {
+    "Producto": "HP2TDOP011022"
+  },
+  {
+    "Producto": "HP2TDOP011023"
+  },
+  {
+    "Producto": "HP2TDOP011031"
+  },
+  {
+    "Producto": "HP2TDOP011032"
+  },
+  {
+    "Producto": "HP2TDOP011033"
+  },
+  {
+    "Producto": "HP2TDOP012021"
+  },
+  {
+    "Producto": "HP2TDOP012022"
+  },
+  {
+    "Producto": "HP2TDOP012023"
+  },
+  {
+    "Producto": "HP2TDOP012031"
+  },
+  {
+    "Producto": "HP2TDOP012032"
+  },
+  {
+    "Producto": "HP2TDOP012033"
+  },
+  {
+    "Producto": "HP2TDOP021011"
+  },
+  {
+    "Producto": "HP2TDOP021012"
+  },
+  {
+    "Producto": "HP2TDOP021021"
+  },
+  {
+    "Producto": "HP2TDOP021022"
+  },
+  {
+    "Producto": "HP2TDOP021023"
+  },
+  {
+    "Producto": "HP2TDOP021031"
+  },
+  {
+    "Producto": "HP2TDOP021032"
+  },
+  {
+    "Producto": "HP2TDOP021033"
+  },
+  {
+    "Producto": "HP2TDOP022011"
+  },
+  {
+    "Producto": "HP2TDOP022012"
+  },
+  {
+    "Producto": "HP2TDOP022021"
+  },
+  {
+    "Producto": "HP2TDOP022022"
+  },
+  {
+    "Producto": "HP2TDOP022023"
+  },
+  {
+    "Producto": "HP2TDOP022031"
+  },
+  {
+    "Producto": "HP2TDOP022032"
+  },
+  {
+    "Producto": "HP2TDOP022033"
+  },
+  {
+    "Producto": "HP2TDOP031021"
+  },
+  {
+    "Producto": "HP2TDOP031022"
+  },
+  {
+    "Producto": "HP2TDOP031023"
+  },
+  {
+    "Producto": "HP2TDOP031031"
+  },
+  {
+    "Producto": "HP2TDOP031032"
+  },
+  {
+    "Producto": "HP2TDOP032011"
+  },
+  {
+    "Producto": "HP2TDOP032021"
+  },
+  {
+    "Producto": "HP2TDOP032022"
+  },
+  {
+    "Producto": "HP2TDOP032023"
+  },
+  {
+    "Producto": "HP2TDOP032031"
+  },
+  {
+    "Producto": "HP2TDOP032032"
+  },
+  {
+    "Producto": "HP2TDOP032033"
+  },
+  {
+    "Producto": "HP2TECH012013"
+  },
+  {
+    "Producto": "HP2TECH012023"
+  },
+  {
+    "Producto": "HP2TECH022013"
+  },
+  {
+    "Producto": "HP2TECH022023"
+  },
+  {
+    "Producto": "HP2TECH032013"
+  },
+  {
+    "Producto": "HP2TECS012013"
+  },
+  {
+    "Producto": "HP2TECS012023"
+  },
+  {
+    "Producto": "HP2TECS022013"
+  },
+  {
+    "Producto": "HP2TECS022023"
+  },
+  {
+    "Producto": "HP2TECZ022023"
+  },
+  {
+    "Producto": "HP2THNHC11022"
+  },
+  {
+    "Producto": "HP2THNHC11032"
+  },
+  {
+    "Producto": "HP2THNHC12022"
+  },
+  {
+    "Producto": "HP2THNHC12023"
+  },
+  {
+    "Producto": "HP2THNHC12032"
+  },
+  {
+    "Producto": "HP2THNHC21022"
+  },
+  {
+    "Producto": "HP2THNHC22012"
+  },
+  {
+    "Producto": "HP2THNHC22022"
+  },
+  {
+    "Producto": "HP2THNHC22023"
+  },
+  {
+    "Producto": "HP2THNHC22032"
+  },
+  {
+    "Producto": "HP2THNHC22033"
+  },
+  {
+    "Producto": "HP2THNHC32022"
+  },
+  {
+    "Producto": "HP2THNHD11022"
+  },
+  {
+    "Producto": "HP2THNHD11023"
+  },
+  {
+    "Producto": "HP2THNHD12022"
+  },
+  {
+    "Producto": "HP2THNHD12023"
+  },
+  {
+    "Producto": "HP2THNHD12032"
+  },
+  {
+    "Producto": "HP2THNHD12033"
+  },
+  {
+    "Producto": "HP2THNHD21022"
+  },
+  {
+    "Producto": "HP2THNHD21023"
+  },
+  {
+    "Producto": "HP2THNHD21032"
+  },
+  {
+    "Producto": "HP2THNHD22022"
+  },
+  {
+    "Producto": "HP2THNHD22023"
+  },
+  {
+    "Producto": "HP2THNHD22033"
+  },
+  {
+    "Producto": "HP2THNHD31022"
+  },
+  {
+    "Producto": "HP2THNHD32022"
+  },
+  {
+    "Producto": "HP2THNHD32023"
+  },
+  {
+    "Producto": "HP2THNHD32032"
+  },
+  {
+    "Producto": "HP2THNHD32033"
+  },
+  {
+    "Producto": "HP2THNHLJ11012"
+  },
+  {
+    "Producto": "HP2THNHLJ11022"
+  },
+  {
+    "Producto": "HP2THNHLJ11023"
+  },
+  {
+    "Producto": "HP2THNHLJ11032"
+  },
+  {
+    "Producto": "HP2THNHLJ11033"
+  },
+  {
+    "Producto": "HP2THNHLJ12022"
+  },
+  {
+    "Producto": "HP2THNHLJ12023"
+  },
+  {
+    "Producto": "HP2THNHLJ12032"
+  },
+  {
+    "Producto": "HP2THNHLJ12033"
+  },
+  {
+    "Producto": "HP2THNHLJ21022"
+  },
+  {
+    "Producto": "HP2THNHLJ21023"
+  },
+  {
+    "Producto": "HP2THNHLJ21032"
+  },
+  {
+    "Producto": "HP2THNHLJ22022"
+  },
+  {
+    "Producto": "HP2THNHLJ22023"
+  },
+  {
+    "Producto": "HP2THNHLJ22032"
+  },
+  {
+    "Producto": "HP2THNHLJ22033"
+  },
+  {
+    "Producto": "HP2THNHLJ31012"
+  },
+  {
+    "Producto": "HP2THNHLJ31013"
+  },
+  {
+    "Producto": "HP2THNHLJ31022"
+  },
+  {
+    "Producto": "HP2THNHLJ31023"
+  },
+  {
+    "Producto": "HP2THNHLJ31032"
+  },
+  {
+    "Producto": "HP2THNHLJ32022"
+  },
+  {
+    "Producto": "HP2THNHLJ32023"
+  },
+  {
+    "Producto": "HP2THNHLJ32032"
+  },
+  {
+    "Producto": "HP2THNHLJ32033"
+  },
+  {
+    "Producto": "HP2TINB001010"
+  },
+  {
+    "Producto": "HP2TINB001020"
+  },
+  {
+    "Producto": "HP2TINB001030"
+  },
+  {
+    "Producto": "HP2TINH011023"
+  },
+  {
+    "Producto": "HP2TINH012022"
+  },
+  {
+    "Producto": "HP2TINH012023"
+  },
+  {
+    "Producto": "HP2TINH021012"
+  },
+  {
+    "Producto": "HP2TINH021022"
+  },
+  {
+    "Producto": "HP2TINH021023"
+  },
+  {
+    "Producto": "HP2TINH021032"
+  },
+  {
+    "Producto": "HP2TINH022012"
+  },
+  {
+    "Producto": "HP2TINH022022"
+  },
+  {
+    "Producto": "HP2TINH022023"
+  },
+  {
+    "Producto": "HP2TINH022032"
+  },
+  {
+    "Producto": "HP2TMXD022013"
+  },
+  {
+    "Producto": "HP2TMXD022023"
+  },
+  {
+    "Producto": "HP2TMXD022033"
+  },
+  {
+    "Producto": "HP2TMXD032013"
+  },
+  {
+    "Producto": "HP2TNIHC11011"
+  },
+  {
+    "Producto": "HP2TNIHC11012"
+  },
+  {
+    "Producto": "HP2TNIHC11021"
+  },
+  {
+    "Producto": "HP2TNIHC11022"
+  },
+  {
+    "Producto": "HP2TNIHC11023"
+  },
+  {
+    "Producto": "HP2TNIHC11031"
+  },
+  {
+    "Producto": "HP2TNIHC11032"
+  },
+  {
+    "Producto": "HP2TNIHC11033"
+  },
+  {
+    "Producto": "HP2TNIHC12021"
+  },
+  {
+    "Producto": "HP2TNIHC12022"
+  },
+  {
+    "Producto": "HP2TNIHC12023"
+  },
+  {
+    "Producto": "HP2TNIHC12031"
+  },
+  {
+    "Producto": "HP2TNIHC12032"
+  },
+  {
+    "Producto": "HP2TNIHC12033"
+  },
+  {
+    "Producto": "HP2TNIHC21011"
+  },
+  {
+    "Producto": "HP2TNIHC21012"
+  },
+  {
+    "Producto": "HP2TNIHC21013"
+  },
+  {
+    "Producto": "HP2TNIHC21021"
+  },
+  {
+    "Producto": "HP2TNIHC21022"
+  },
+  {
+    "Producto": "HP2TNIHC21023"
+  },
+  {
+    "Producto": "HP2TNIHC21031"
+  },
+  {
+    "Producto": "HP2TNIHC21032"
+  },
+  {
+    "Producto": "HP2TNIHC21033"
+  },
+  {
+    "Producto": "HP2TNIHC22011"
+  },
+  {
+    "Producto": "HP2TNIHC22012"
+  },
+  {
+    "Producto": "HP2TNIHC22013"
+  },
+  {
+    "Producto": "HP2TNIHC22021"
+  },
+  {
+    "Producto": "HP2TNIHC22022"
+  },
+  {
+    "Producto": "HP2TNIHC22023"
+  },
+  {
+    "Producto": "HP2TNIHC22031"
+  },
+  {
+    "Producto": "HP2TNIHC22032"
+  },
+  {
+    "Producto": "HP2TNIHC22033"
+  },
+  {
+    "Producto": "HP2TNIHC31011"
+  },
+  {
+    "Producto": "HP2TNIHC31021"
+  },
+  {
+    "Producto": "HP2TNIHC31022"
+  },
+  {
+    "Producto": "HP2TNIHC31023"
+  },
+  {
+    "Producto": "HP2TNIHC31031"
+  },
+  {
+    "Producto": "HP2TNIHC31032"
+  },
+  {
+    "Producto": "HP2TNIHC31033"
+  },
+  {
+    "Producto": "HP2TNIHC32011"
+  },
+  {
+    "Producto": "HP2TNIHC32012"
+  },
+  {
+    "Producto": "HP2TNIHC32021"
+  },
+  {
+    "Producto": "HP2TNIHC32022"
+  },
+  {
+    "Producto": "HP2TNIHC32023"
+  },
+  {
+    "Producto": "HP2TNIHC32031"
+  },
+  {
+    "Producto": "HP2TNIHC32032"
+  },
+  {
+    "Producto": "HP2TNIHC32033"
+  },
+  {
+    "Producto": "HP2TNIHE11011"
+  },
+  {
+    "Producto": "HP2TNIHE11012"
+  },
+  {
+    "Producto": "HP2TNIHE11021"
+  },
+  {
+    "Producto": "HP2TNIHE11022"
+  },
+  {
+    "Producto": "HP2TNIHE11023"
+  },
+  {
+    "Producto": "HP2TNIHE11031"
+  },
+  {
+    "Producto": "HP2TNIHE11032"
+  },
+  {
+    "Producto": "HP2TNIHE11033"
+  },
+  {
+    "Producto": "HP2TNIHE12021"
+  },
+  {
+    "Producto": "HP2TNIHE12022"
+  },
+  {
+    "Producto": "HP2TNIHE12023"
+  },
+  {
+    "Producto": "HP2TNIHE12031"
+  },
+  {
+    "Producto": "HP2TNIHE12032"
+  },
+  {
+    "Producto": "HP2TNIHE12033"
+  },
+  {
+    "Producto": "HP2TNIHE21011"
+  },
+  {
+    "Producto": "HP2TNIHE21021"
+  },
+  {
+    "Producto": "HP2TNIHE21022"
+  },
+  {
+    "Producto": "HP2TNIHE21023"
+  },
+  {
+    "Producto": "HP2TNIHE21031"
+  },
+  {
+    "Producto": "HP2TNIHE21032"
+  },
+  {
+    "Producto": "HP2TNIHE21033"
+  },
+  {
+    "Producto": "HP2TNIHE22021"
+  },
+  {
+    "Producto": "HP2TNIHE22022"
+  },
+  {
+    "Producto": "HP2TNIHE22023"
+  },
+  {
+    "Producto": "HP2TNIHE22031"
+  },
+  {
+    "Producto": "HP2TNIHE22032"
+  },
+  {
+    "Producto": "HP2TNIHE22033"
+  },
+  {
+    "Producto": "HP2TNIHE31021"
+  },
+  {
+    "Producto": "HP2TNIHE31022"
+  },
+  {
+    "Producto": "HP2TNIHE31031"
+  },
+  {
+    "Producto": "HP2TNIHE31032"
+  },
+  {
+    "Producto": "HP2TNIHE31033"
+  },
+  {
+    "Producto": "HP2TNIHE32021"
+  },
+  {
+    "Producto": "HP2TNIHE32022"
+  },
+  {
+    "Producto": "HP2TNIHE32023"
+  },
+  {
+    "Producto": "HP2TNIHE32031"
+  },
+  {
+    "Producto": "HP2TNIHE32032"
+  },
+  {
+    "Producto": "HP2TNIHE32033"
+  },
+  {
+    "Producto": "HP2TNIHJ11012"
+  },
+  {
+    "Producto": "HP2TNIHJ11021"
+  },
+  {
+    "Producto": "HP2TNIHJ11022"
+  },
+  {
+    "Producto": "HP2TNIHJ11023"
+  },
+  {
+    "Producto": "HP2TNIHJ11031"
+  },
+  {
+    "Producto": "HP2TNIHJ11032"
+  },
+  {
+    "Producto": "HP2TNIHJ11033"
+  },
+  {
+    "Producto": "HP2TNIHJ12021"
+  },
+  {
+    "Producto": "HP2TNIHJ12022"
+  },
+  {
+    "Producto": "HP2TNIHJ12023"
+  },
+  {
+    "Producto": "HP2TNIHJ12031"
+  },
+  {
+    "Producto": "HP2TNIHJ12032"
+  },
+  {
+    "Producto": "HP2TNIHJ12033"
+  },
+  {
+    "Producto": "HP2TNIHJ21012"
+  },
+  {
+    "Producto": "HP2TNIHJ21021"
+  },
+  {
+    "Producto": "HP2TNIHJ21022"
+  },
+  {
+    "Producto": "HP2TNIHJ21023"
+  },
+  {
+    "Producto": "HP2TNIHJ21031"
+  },
+  {
+    "Producto": "HP2TNIHJ21032"
+  },
+  {
+    "Producto": "HP2TNIHJ21033"
+  },
+  {
+    "Producto": "HP2TNIHJ22021"
+  },
+  {
+    "Producto": "HP2TNIHJ22022"
+  },
+  {
+    "Producto": "HP2TNIHJ22023"
+  },
+  {
+    "Producto": "HP2TNIHJ22031"
+  },
+  {
+    "Producto": "HP2TNIHJ22032"
+  },
+  {
+    "Producto": "HP2TNIHJ22033"
+  },
+  {
+    "Producto": "HP2TNIHJ31011"
+  },
+  {
+    "Producto": "HP2TNIHJ31012"
+  },
+  {
+    "Producto": "HP2TNIHJ31013"
+  },
+  {
+    "Producto": "HP2TNIHJ31021"
+  },
+  {
+    "Producto": "HP2TNIHJ31022"
+  },
+  {
+    "Producto": "HP2TNIHJ31023"
+  },
+  {
+    "Producto": "HP2TNIHJ31031"
+  },
+  {
+    "Producto": "HP2TNIHJ31032"
+  },
+  {
+    "Producto": "HP2TNIHJ31033"
+  },
+  {
+    "Producto": "HP2TNIHJ32021"
+  },
+  {
+    "Producto": "HP2TNIHJ32022"
+  },
+  {
+    "Producto": "HP2TNIHJ32023"
+  },
+  {
+    "Producto": "HP2TNIHJ32031"
+  },
+  {
+    "Producto": "HP2TNIHJ32032"
+  },
+  {
+    "Producto": "HP2TNIHJ32033"
+  },
+  {
+    "Producto": "HP2TNIHO11011"
+  },
+  {
+    "Producto": "HP2TNIHO11012"
+  },
+  {
+    "Producto": "HP2TNIHO11021"
+  },
+  {
+    "Producto": "HP2TNIHO11022"
+  },
+  {
+    "Producto": "HP2TNIHO11023"
+  },
+  {
+    "Producto": "HP2TNIHO11031"
+  },
+  {
+    "Producto": "HP2TNIHO11032"
+  },
+  {
+    "Producto": "HP2TNIHO11033"
+  },
+  {
+    "Producto": "HP2TNIHO12021"
+  },
+  {
+    "Producto": "HP2TNIHO12022"
+  },
+  {
+    "Producto": "HP2TNIHO12023"
+  },
+  {
+    "Producto": "HP2TNIHO12031"
+  },
+  {
+    "Producto": "HP2TNIHO12032"
+  },
+  {
+    "Producto": "HP2TNIHO12033"
+  },
+  {
+    "Producto": "HP2TNIHO21011"
+  },
+  {
+    "Producto": "HP2TNIHO21012"
+  },
+  {
+    "Producto": "HP2TNIHO21013"
+  },
+  {
+    "Producto": "HP2TNIHO21021"
+  },
+  {
+    "Producto": "HP2TNIHO21022"
+  },
+  {
+    "Producto": "HP2TNIHO21023"
+  },
+  {
+    "Producto": "HP2TNIHO21031"
+  },
+  {
+    "Producto": "HP2TNIHO21032"
+  },
+  {
+    "Producto": "HP2TNIHO21033"
+  },
+  {
+    "Producto": "HP2TNIHO22021"
+  },
+  {
+    "Producto": "HP2TNIHO22022"
+  },
+  {
+    "Producto": "HP2TNIHO22023"
+  },
+  {
+    "Producto": "HP2TNIHO22031"
+  },
+  {
+    "Producto": "HP2TNIHO22032"
+  },
+  {
+    "Producto": "HP2TNIHO22033"
+  },
+  {
+    "Producto": "HP2TNIHO31021"
+  },
+  {
+    "Producto": "HP2TNIHO31022"
+  },
+  {
+    "Producto": "HP2TNIHO31023"
+  },
+  {
+    "Producto": "HP2TNIHO31031"
+  },
+  {
+    "Producto": "HP2TNIHO31032"
+  },
+  {
+    "Producto": "HP2TNIHO32021"
+  },
+  {
+    "Producto": "HP2TNIHO32022"
+  },
+  {
+    "Producto": "HP2TNIHO32023"
+  },
+  {
+    "Producto": "HP2TNIHO32031"
+  },
+  {
+    "Producto": "HP2TNIHO32032"
+  },
+  {
+    "Producto": "HP2TNIHO32033"
+  },
+  {
+    "Producto": "HP2TNIHP11021"
+  },
+  {
+    "Producto": "HP2TNIHP11022"
+  },
+  {
+    "Producto": "HP2TNIHP11023"
+  },
+  {
+    "Producto": "HP2TNIHP11031"
+  },
+  {
+    "Producto": "HP2TNIHP11032"
+  },
+  {
+    "Producto": "HP2TNIHP11033"
+  },
+  {
+    "Producto": "HP2TNIHP12021"
+  },
+  {
+    "Producto": "HP2TNIHP12022"
+  },
+  {
+    "Producto": "HP2TNIHP12023"
+  },
+  {
+    "Producto": "HP2TNIHP12031"
+  },
+  {
+    "Producto": "HP2TNIHP12032"
+  },
+  {
+    "Producto": "HP2TNIHP12033"
+  },
+  {
+    "Producto": "HP2TNIHP21011"
+  },
+  {
+    "Producto": "HP2TNIHP21021"
+  },
+  {
+    "Producto": "HP2TNIHP21022"
+  },
+  {
+    "Producto": "HP2TNIHP21023"
+  },
+  {
+    "Producto": "HP2TNIHP21031"
+  },
+  {
+    "Producto": "HP2TNIHP21032"
+  },
+  {
+    "Producto": "HP2TNIHP21033"
+  },
+  {
+    "Producto": "HP2TNIHP22021"
+  },
+  {
+    "Producto": "HP2TNIHP22022"
+  },
+  {
+    "Producto": "HP2TNIHP22023"
+  },
+  {
+    "Producto": "HP2TNIHP22031"
+  },
+  {
+    "Producto": "HP2TNIHP22032"
+  },
+  {
+    "Producto": "HP2TNIHP22033"
+  },
+  {
+    "Producto": "HP2TNIHP31021"
+  },
+  {
+    "Producto": "HP2TNIHP31022"
+  },
+  {
+    "Producto": "HP2TNIHP31023"
+  },
+  {
+    "Producto": "HP2TNIHP31031"
+  },
+  {
+    "Producto": "HP2TNIHP31032"
+  },
+  {
+    "Producto": "HP2TNIHP31033"
+  },
+  {
+    "Producto": "HP2TNIHP32021"
+  },
+  {
+    "Producto": "HP2TNIHP32022"
+  },
+  {
+    "Producto": "HP2TNIHP32023"
+  },
+  {
+    "Producto": "HP2TNIHP32031"
+  },
+  {
+    "Producto": "HP2TNIHP32032"
+  },
+  {
+    "Producto": "HP2TNIHP32033"
+  },
+  {
+    "Producto": "HP2TNIHS11021"
+  },
+  {
+    "Producto": "HP2TNIHS11022"
+  },
+  {
+    "Producto": "HP2TNIHS11023"
+  },
+  {
+    "Producto": "HP2TNIHS11031"
+  },
+  {
+    "Producto": "HP2TNIHS11032"
+  },
+  {
+    "Producto": "HP2TNIHS11033"
+  },
+  {
+    "Producto": "HP2TNIHS12012"
+  },
+  {
+    "Producto": "HP2TNIHS12021"
+  },
+  {
+    "Producto": "HP2TNIHS12022"
+  },
+  {
+    "Producto": "HP2TNIHS12023"
+  },
+  {
+    "Producto": "HP2TNIHS12031"
+  },
+  {
+    "Producto": "HP2TNIHS12032"
+  },
+  {
+    "Producto": "HP2TNIHS12033"
+  },
+  {
+    "Producto": "HP2TNIHS21012"
+  },
+  {
+    "Producto": "HP2TNIHS21021"
+  },
+  {
+    "Producto": "HP2TNIHS21022"
+  },
+  {
+    "Producto": "HP2TNIHS21023"
+  },
+  {
+    "Producto": "HP2TNIHS21031"
+  },
+  {
+    "Producto": "HP2TNIHS21032"
+  },
+  {
+    "Producto": "HP2TNIHS21033"
+  },
+  {
+    "Producto": "HP2TNIHS22021"
+  },
+  {
+    "Producto": "HP2TNIHS22022"
+  },
+  {
+    "Producto": "HP2TNIHS22023"
+  },
+  {
+    "Producto": "HP2TNIHS22031"
+  },
+  {
+    "Producto": "HP2TNIHS22032"
+  },
+  {
+    "Producto": "HP2TNIHS22033"
+  },
+  {
+    "Producto": "HP2TNIHS31021"
+  },
+  {
+    "Producto": "HP2TNIHS31022"
+  },
+  {
+    "Producto": "HP2TNIHS31023"
+  },
+  {
+    "Producto": "HP2TNIHS31031"
+  },
+  {
+    "Producto": "HP2TNIHS31032"
+  },
+  {
+    "Producto": "HP2TNIHS31033"
+  },
+  {
+    "Producto": "HP2TNIHS32021"
+  },
+  {
+    "Producto": "HP2TNIHS32022"
+  },
+  {
+    "Producto": "HP2TNIHS32023"
+  },
+  {
+    "Producto": "HP2TNIHS32031"
+  },
+  {
+    "Producto": "HP2TNIHS32032"
+  },
+  {
+    "Producto": "HP2TNIHS32033"
+  },
+  {
+    "Producto": "HP2TUSE022013"
+  },
+  {
+    "Producto": "HP2TUSE022022"
+  },
+  {
+    "Producto": "HP2TUSE022023"
+  },
+  {
+    "Producto": "HP2TUSE032013"
+  },
+  {
+    "Producto": "HP2TUSR022013"
+  },
+  {
+    "Producto": "HP2TUSR022023"
+  },
+  {
+    "Producto": "HP2TUSR032013"
+  },
+  {
+    "Producto": "HP2TUSR032023"
+  },
+  {
+    "Producto": "HRZBCMN021012"
+  },
+  {
+    "Producto": "HRZBCMN021022"
+  },
+  {
+    "Producto": "HRZBCMN021032"
+  },
+  {
+    "Producto": "HRZBECC001013"
+  },
+  {
+    "Producto": "HRZBECC001023"
+  },
+  {
+    "Producto": "HRZBECC001033"
+  },
+  {
+    "Producto": "HRZBECH011012"
+  },
+  {
+    "Producto": "HRZBECH011013"
+  },
+  {
+    "Producto": "HRZBECH011022"
+  },
+  {
+    "Producto": "HRZBECH011023"
+  },
+  {
+    "Producto": "HRZBECH011032"
+  },
+  {
+    "Producto": "HRZBECH011033"
+  },
+  {
+    "Producto": "HRZBECH011042"
+  },
+  {
+    "Producto": "HRZBECH021012"
+  },
+  {
+    "Producto": "HRZBECH021013"
+  },
+  {
+    "Producto": "HRZBECH021022"
+  },
+  {
+    "Producto": "HRZBECH021023"
+  },
+  {
+    "Producto": "HRZBECH021032"
+  },
+  {
+    "Producto": "HRZBECH021033"
+  },
+  {
+    "Producto": "HRZBECH021042"
+  },
+  {
+    "Producto": "HRZBECH021043"
+  },
+  {
+    "Producto": "HRZBECS011012"
+  },
+  {
+    "Producto": "HRZBECS011013"
+  },
+  {
+    "Producto": "HRZBECS011022"
+  },
+  {
+    "Producto": "HRZBECS011023"
+  },
+  {
+    "Producto": "HRZBECS011032"
+  },
+  {
+    "Producto": "HRZBECS011033"
+  },
+  {
+    "Producto": "HRZBECS011042"
+  },
+  {
+    "Producto": "HRZBECS021012"
+  },
+  {
+    "Producto": "HRZBECS021022"
+  },
+  {
+    "Producto": "HRZBECS021032"
+  },
+  {
+    "Producto": "HRZBECS021042"
+  },
+  {
+    "Producto": "HRZBINB001012"
+  },
+  {
+    "Producto": "HRZBINB001022"
+  },
+  {
+    "Producto": "HRZBINB001032"
+  },
+  {
+    "Producto": "HRZBINB001042"
+  },
+  {
+    "Producto": "HRZBMXD021012"
+  },
+  {
+    "Producto": "HRZBMXD021022"
+  },
+  {
+    "Producto": "HRZBMXD021032"
+  },
+  {
+    "Producto": "HRZBNIHC11011"
+  },
+  {
+    "Producto": "HRZBNIHC11021"
+  },
+  {
+    "Producto": "HRZBNIHC11031"
+  },
+  {
+    "Producto": "HRZBNIHC21011"
+  },
+  {
+    "Producto": "HRZBNIHC21021"
+  },
+  {
+    "Producto": "HRZBNIHC21031"
+  },
+  {
+    "Producto": "HRZBNIHE11021"
+  },
+  {
+    "Producto": "HRZBNIHE11031"
+  },
+  {
+    "Producto": "HRZBNIHJ11011"
+  },
+  {
+    "Producto": "HRZBNIHJ11012"
+  },
+  {
+    "Producto": "HRZBNIHJ11021"
+  },
+  {
+    "Producto": "HRZBNIHJ11022"
+  },
+  {
+    "Producto": "HRZBNIHJ11031"
+  },
+  {
+    "Producto": "HRZBNIHJ11032"
+  },
+  {
+    "Producto": "HRZBNIHJ21011"
+  },
+  {
+    "Producto": "HRZBNIHJ21013"
+  },
+  {
+    "Producto": "HRZBNIHJ21021"
+  },
+  {
+    "Producto": "HRZBNIHJ21031"
+  },
+  {
+    "Producto": "HRZBNIHS11011"
+  },
+  {
+    "Producto": "HRZBNIHS11021"
+  },
+  {
+    "Producto": "HRZBNIHS11031"
+  },
+  {
+    "Producto": "HRZBNIHS21011"
+  },
+  {
+    "Producto": "HRZBNIHS21021"
+  },
+  {
+    "Producto": "HRZBNIHS21031"
+  },
+  {
+    "Producto": "HRZBUSR021013"
+  },
+  {
+    "Producto": "HRZBUSR021023"
+  },
+  {
+    "Producto": "HRZCCMN021412"
+  },
+  {
+    "Producto": "HRZCCMN021422"
+  },
+  {
+    "Producto": "HRZCCMN021432"
+  },
+  {
+    "Producto": "HRZCCMN021442"
+  },
+  {
+    "Producto": "HRZCECC001111"
+  },
+  {
+    "Producto": "HRZCECC001112"
+  },
+  {
+    "Producto": "HRZCECC001113"
+  },
+  {
+    "Producto": "HRZCECC001121"
+  },
+  {
+    "Producto": "HRZCECC001122"
+  },
+  {
+    "Producto": "HRZCECC001123"
+  },
+  {
+    "Producto": "HRZCECC001131"
+  },
+  {
+    "Producto": "HRZCECC001132"
+  },
+  {
+    "Producto": "HRZCECC001133"
+  },
+  {
+    "Producto": "HRZCECC001141"
+  },
+  {
+    "Producto": "HRZCECC001142"
+  },
+  {
+    "Producto": "HRZCECC001143"
+  },
+  {
+    "Producto": "HRZCECH011112"
+  },
+  {
+    "Producto": "HRZCECH011113"
+  },
+  {
+    "Producto": "HRZCECH011122"
+  },
+  {
+    "Producto": "HRZCECH011123"
+  },
+  {
+    "Producto": "HRZCECH011132"
+  },
+  {
+    "Producto": "HRZCECH011133"
+  },
+  {
+    "Producto": "HRZCECH011142"
+  },
+  {
+    "Producto": "HRZCECH011143"
+  },
+  {
+    "Producto": "HRZCECH011212"
+  },
+  {
+    "Producto": "HRZCECH011213"
+  },
+  {
+    "Producto": "HRZCECH011222"
+  },
+  {
+    "Producto": "HRZCECH011223"
+  },
+  {
+    "Producto": "HRZCECH011232"
+  },
+  {
+    "Producto": "HRZCECH011233"
+  },
+  {
+    "Producto": "HRZCECH021311"
+  },
+  {
+    "Producto": "HRZCECH021312"
+  },
+  {
+    "Producto": "HRZCECH021321"
+  },
+  {
+    "Producto": "HRZCECH021322"
+  },
+  {
+    "Producto": "HRZCECH021323"
+  },
+  {
+    "Producto": "HRZCECH021331"
+  },
+  {
+    "Producto": "HRZCECH021332"
+  },
+  {
+    "Producto": "HRZCECH021341"
+  },
+  {
+    "Producto": "HRZCECH021342"
+  },
+  {
+    "Producto": "HRZCECH031513"
+  },
+  {
+    "Producto": "HRZCECH031523"
+  },
+  {
+    "Producto": "HRZCECH031533"
+  },
+  {
+    "Producto": "HRZCECH031543"
+  },
+  {
+    "Producto": "HRZCECS011112"
+  },
+  {
+    "Producto": "HRZCECS011122"
+  },
+  {
+    "Producto": "HRZCECS011132"
+  },
+  {
+    "Producto": "HRZCECS011142"
+  },
+  {
+    "Producto": "HRZCECS011231"
+  },
+  {
+    "Producto": "HRZCECS011241"
+  },
+  {
+    "Producto": "HRZCECS021311"
+  },
+  {
+    "Producto": "HRZCECS021321"
+  },
+  {
+    "Producto": "HRZCECS021331"
+  },
+  {
+    "Producto": "HRZCECS021341"
+  },
+  {
+    "Producto": "HRZCECS031411"
+  },
+  {
+    "Producto": "HRZCECS031421"
+  },
+  {
+    "Producto": "HRZCECS031431"
+  },
+  {
+    "Producto": "HRZCECS031441"
+  },
+  {
+    "Producto": "HRZCECZ011122"
+  },
+  {
+    "Producto": "HRZCECZ011211"
+  },
+  {
+    "Producto": "HRZCECZ011221"
+  },
+  {
+    "Producto": "HRZCECZ011231"
+  },
+  {
+    "Producto": "HRZCECZ011241"
+  },
+  {
+    "Producto": "HRZCINB001012"
+  },
+  {
+    "Producto": "HRZCINB001013"
+  },
+  {
+    "Producto": "HRZCINB001022"
+  },
+  {
+    "Producto": "HRZCINB001023"
+  },
+  {
+    "Producto": "HRZCINB001032"
+  },
+  {
+    "Producto": "HRZCINB001033"
+  },
+  {
+    "Producto": "HRZCINB001043"
+  },
+  {
+    "Producto": "HRZCMXD021412"
+  },
+  {
+    "Producto": "HRZCMXD021422"
+  },
+  {
+    "Producto": "HRZCMXD021432"
+  },
+  {
+    "Producto": "HRZCMXD021442"
+  },
+  {
+    "Producto": "HRZCMXD031512"
+  },
+  {
+    "Producto": "HRZCMXD031522"
+  },
+  {
+    "Producto": "HRZCMXD031523"
+  },
+  {
+    "Producto": "HRZCMXD031532"
+  },
+  {
+    "Producto": "HRZCMXD031533"
+  },
+  {
+    "Producto": "HRZCMXD031542"
+  },
+  {
+    "Producto": "HRZCMXD031543"
+  },
+  {
+    "Producto": "HRZCUSE021422"
+  },
+  {
+    "Producto": "HRZCUSE021432"
+  },
+  {
+    "Producto": "HRZCUSE021442"
+  },
+  {
+    "Producto": "HRZCUSE031512"
+  },
+  {
+    "Producto": "HRZCUSE031522"
+  },
+  {
+    "Producto": "HRZCUSE031523"
+  },
+  {
+    "Producto": "HRZCUSE031532"
+  },
+  {
+    "Producto": "HRZCUSE031533"
+  },
+  {
+    "Producto": "HRZCUSE031542"
+  },
+  {
+    "Producto": "HRZCUSE031543"
+  },
+  {
+    "Producto": "HRZCUSR021422"
+  },
+  {
+    "Producto": "HRZCUSR021432"
+  },
+  {
+    "Producto": "HRZCUSR021442"
+  },
+  {
+    "Producto": "HRZCUSR031522"
+  },
+  {
+    "Producto": "HTSTCMN022023"
+  },
+  {
+    "Producto": "HTSTECH012023"
+  },
+  {
+    "Producto": "HTSTECH022013"
+  },
+  {
+    "Producto": "HTSTECH022023"
+  },
+  {
+    "Producto": "HTSTECS000000"
+  },
+  {
+    "Producto": "HTSTECZ012013"
+  },
+  {
+    "Producto": "HTSTECZ022013"
+  },
+  {
+    "Producto": "HTSTINB001020"
+  },
+  {
+    "Producto": "HTSTMXD012000"
+  },
+  {
+    "Producto": "HTSTMXD022000"
+  },
+  {
+    "Producto": "HTSTUSE022010"
+  },
+  {
+    "Producto": "HTSTUSR022010"
+  },
+  {
+    "Producto": "HP2TDOP012024"
+  },
+  {
+    "Producto": "HP2TDOP021024"
+  },
+  {
+    "Producto": "HP2TDOP022024"
+  },
+  {
+    "Producto": "HP2TDOP022034"
+  },
+  {
+    "Producto": "HP2THNHD22024"
+  },
+  {
+    "Producto": "HP2TNIHC11034"
+  },
+  {
+    "Producto": "HP2TNIHC12024"
+  },
+  {
+    "Producto": "HP2TNIHC12034"
+  },
+  {
+    "Producto": "HP2TNIHC22014"
+  },
+  {
+    "Producto": "HP2TNIHC22024"
+  },
+  {
+    "Producto": "HP2TNIHC22034"
+  },
+  {
+    "Producto": "HP2TNIHC31024"
+  },
+  {
+    "Producto": "HP2TNIHC31034"
+  },
+  {
+    "Producto": "HP2TNIHC32024"
+  },
+  {
+    "Producto": "HP2TNIHC32034"
+  },
+  {
+    "Producto": "HP2TNIHE22024"
+  },
+  {
+    "Producto": "HP2TNIHE22034"
+  },
+  {
+    "Producto": "HP2TNIHE32024"
+  },
+  {
+    "Producto": "HP2TNIHJ11024"
+  },
+  {
+    "Producto": "HP2TNIHJ12024"
+  },
+  {
+    "Producto": "HP2TNIHJ22024"
+  },
+  {
+    "Producto": "HP2TNIHJ31024"
+  },
+  {
+    "Producto": "HP2TNIHJ32024"
+  },
+  {
+    "Producto": "HP2TNIHO12024"
+  },
+  {
+    "Producto": "HP2TNIHO21024"
+  },
+  {
+    "Producto": "HP2TNIHO22024"
+  },
+  {
+    "Producto": "HP2TNIHO31024"
+  },
+  {
+    "Producto": "HP2TNIHO32024"
+  },
+  {
+    "Producto": "HP2TNIHO32034"
+  },
+  {
+    "Producto": "HP2TNIHP22024"
+  },
+  {
+    "Producto": "HP2TNIHP32024"
+  },
+  {
+    "Producto": "HP2TNIHS12024"
+  },
+  {
+    "Producto": "HP2TNIHS22024"
+  },
+  {
+    "Producto": "HP2TNIHS22034"
+  },
+  {
+    "Producto": "HP2TNIHS32024"
+  },
+  {
+    "Producto": "HP2TNIHS31024"
+  },
+  {
+    "Producto": "HP2TNIHO12034"
+  },
+  {
+    "Producto": "HP2THNHC12033"
+  },
+  {
+    "Producto": "HP2THNHC21012"
+  },
+  {
+    "Producto": "HP2THNHC21032"
+  },
+  {
+    "Producto": "HP2THNHD11032"
+  },
+  {
+    "Producto": "HP2THNHD21012"
+  },
+  {
+    "Producto": "HP2THNHD21021"
+  },
+  {
+    "Producto": "HP2THNHD21033"
+  },
+  {
+    "Producto": "HP2THNHD22012"
+  },
+  {
+    "Producto": "HP2TNIHC11024"
+  },
+  {
+    "Producto": "HP2TNIHC21034"
+  },
+  {
+    "Producto": "HP2TNIHE11024"
+  },
+  {
+    "Producto": "HP2TNIHE12024"
+  },
+  {
+    "Producto": "HP2TNIHE12034"
+  },
+  {
+    "Producto": "HP2TNIHE21024"
+  },
+  {
+    "Producto": "HP2TNIHE21034"
+  },
+  {
+    "Producto": "HP2TNIHE32034"
+  },
+  {
+    "Producto": "HP2TNIHJ11011"
+  },
+  {
+    "Producto": "HP2TNIHJ12034"
+  },
+  {
+    "Producto": "HP2TNIHJ21034"
+  },
+  {
+    "Producto": "HP2TNIHJ22034"
+  },
+  {
+    "Producto": "HP2TNIHJ32034"
+  },
+  {
+    "Producto": "HP2TNIHO12011"
+  },
+  {
+    "Producto": "HP2TNIHO21034"
+  },
+  {
+    "Producto": "HP2TNIHO22034"
+  },
+  {
+    "Producto": "HP2TNIHP12024"
+  },
+  {
+    "Producto": "HP2TNIHP31024"
+  },
+  {
+    "Producto": "HP2TNIHS11024"
+  },
+  {
+    "Producto": "HP2TNIHS11034"
+  },
+  {
+    "Producto": "HP2TNIHS12034"
+  },
+  {
+    "Producto": "HP2TNIHS21024"
+  },
+  {
+    "Producto": "HRZBUSC001023"
+  },
+  {
+    "Producto": "HRZCMXD021421"
+  },
+  {
+    "Producto": "HRZCMXD021431"
+  },
+  {
+    "Producto": "HRZCMXD021441"
+  },
+  {
+    "Producto": "HRZCUSC001122"
+  },
+  {
+    "Producto": "HRZCUSC001132"
+  },
+  {
+    "Producto": "HP2THNHD12024"
+  },
+  {
+    "Producto": "HP2TDOP012011"
+  },
+  {
+    "Producto": "HP2TECZ012023"
+  },
+  {
+    "Producto": "HP2THNHC11023"
+  },
+  {
+    "Producto": "HP2THNHC11024"
+  },
+  {
+    "Producto": "HP2THNHC12024"
+  },
+  {
+    "Producto": "HP2THNHD11021"
+  },
+  {
+    "Producto": "HP2THNHD11033"
+  },
+  {
+    "Producto": "HP2THNHD11034"
+  },
+  {
+    "Producto": "HP2THNHLJ12024"
+  },
+  {
+    "Producto": "HP2TNIHC12011"
+  },
+  {
+    "Producto": "HP2TNIHC12012"
+  },
+  {
+    "Producto": "HP2TNIHJ31034"
+  },
+  {
+    "Producto": "HRZBECZ011013"
+  },
+  {
+    "Producto": "HRZBECZ011023"
+  },
+  {
+    "Producto": "HRZBECZ011033"
+  },
+  {
+    "Producto": "HRZCECZ011132"
+  },
+  {
+    "Producto": "HRZCECZ011142"
+  }
+]
