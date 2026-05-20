@@ -324,27 +324,69 @@ function buildRoundQuestions() {
             const missingSection = sections[Math.floor(Math.random() * sections.length)];
             const description = buildFullDescriptionFromSegments(fullCodeData.segments, missingSection);
             const placeholderCode = buildCodeWithPlaceholder(fullCodeData.code, fullCodeData.segments, missingSection);
-            allQuestions.push({
-                section: missingSection,
-                qText: 'Completa el código SAP sustituyendo [?] por el ítem faltante:',
-                fullCode: placeholderCode,
-                description,
-                answer: fullCodeData.segments[missingSection],
-                options: gameState.mode === 'descToCode' ? getQuizOptions(missingSection, fullCodeData.segments[missingSection], 'code') : []
-            });
+            const item = (sapData[missingSection] || []).find(it => it.code === fullCodeData.segments[missingSection]) || { desc: 'Desconocido' };
+
+            if (gameState.mode === 'codeToDesc') {
+                allQuestions.push({
+                    section: missingSection,
+                    qText: '¿Qué significa la parte resaltada del código SAP?',
+                    fullCode: highlightSegmentInCode(fullCodeData, fullCodeData.segments[missingSection], missingSection),
+                    answer: item.desc,
+                    options: getQuizOptions(missingSection, item.desc, 'desc')
+                });
+            } else if (gameState.mode === 'descToCode') {
+                allQuestions.push({
+                    section: missingSection,
+                    qText: 'Completa el código SAP sustituyendo [?] por el ítem faltante:',
+                    fullCode: placeholderCode,
+                    description,
+                    answer: fullCodeData.segments[missingSection],
+                    options: getQuizOptions(missingSection, fullCodeData.segments[missingSection], 'code')
+                });
+            } else {
+                allQuestions.push({
+                    section: missingSection,
+                    qText: 'Completa el código SAP sustituyendo [?] por el ítem faltante:',
+                    fullCode: placeholderCode,
+                    description,
+                    answer: fullCodeData.segments[missingSection],
+                    options: []
+                });
+            }
         }
     } else {
         for (let i = 0; i < 10; i++) {
             const fullCodeData = generateRandomSapCode();
             const description = buildFullDescriptionFromSegments(fullCodeData.segments);
-            allQuestions.push({
-                section: 'full',
-                qText: 'Escribe el código SAP completo que corresponde a esta descripción:',
-                fullCode: '',
-                description,
-                answer: fullCodeData.code,
-                options: []
-            });
+            if (gameState.mode === 'codeToDesc') {
+                const section = fullCategoryOrder[Math.floor(Math.random() * fullCategoryOrder.length)];
+                const item = (sapData[section] || []).find(it => it.code === fullCodeData.segments[section]) || { desc: 'Desconocido' };
+                allQuestions.push({
+                    section,
+                    qText: 'En el código SAP completo, ¿qué significa la parte resaltada?',
+                    fullCode: highlightSegmentInCode(fullCodeData, fullCodeData.segments[section], section),
+                    answer: item.desc,
+                    options: getQuizOptions(section, item.desc, 'desc')
+                });
+            } else if (gameState.mode === 'descToCode') {
+                allQuestions.push({
+                    section: 'full',
+                    qText: 'Escribe el código SAP completo que corresponde a esta descripción:',
+                    fullCode: '',
+                    description,
+                    answer: fullCodeData.code,
+                    options: []
+                });
+            } else {
+                allQuestions.push({
+                    section: 'full',
+                    qText: 'Escribe el código SAP completo que corresponde a esta descripción:',
+                    fullCode: '',
+                    description,
+                    answer: fullCodeData.code,
+                    options: []
+                });
+            }
         }
     }
 
