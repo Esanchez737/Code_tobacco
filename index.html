@@ -13,6 +13,7 @@ h1,h2,h3{text-align:center}
 .hidden{display:none}
 input[type="text"]{width:100%;padding:10px;margin:10px 0;border-radius:5px;border:none;font-size:16px}
 button{cursor:pointer}
+.highlighted-segment{background-color:#fde047;color:#0f172a;font-weight:700;padding:0 4px;border-radius:5px}
 @media (max-width: 768px) {
     body{padding:10px;font-size:14px}
     .container{padding:15px}
@@ -262,12 +263,13 @@ function buildTutorialAndQuiz() {
             content += `<li><strong>${item.code}</strong> = ${item.desc}</li>`;
         });
         content += '</ul>';
-        // Generar código de ejemplo con la sección resaltada
-        const exampleCode = generateRandomSapCode(section, items[0].code); // Usar el primer ítem para el ejemplo
-        const highlightedCode = highlightSegmentInCode(exampleCode, items[0].code, section);
+        const sampleItem = items[Math.floor(Math.random() * items.length)] || { code: '??', desc: 'Desconocido' };
+        // Generar código de ejemplo con la sección resaltada usando un item real
+        const exampleCode = generateRandomSapCode(section, sampleItem.code);
+        const highlightedCode = highlightSegmentInCode(exampleCode, sampleItem.code, section);
         content += `<br><h3>Ejemplo de Código SAP con ${section.toUpperCase()} resaltado:</h3>`;
         content += `<div style="font-family: monospace; font-size: 18px; margin: 10px 0;">${highlightedCode}</div>`;
-        content += `<p>La parte resaltada en amarillo corresponde a la categoría ${section.toUpperCase()}.</p>`;
+        content += `<p>Esta porción del código pertenece a la categoría <strong>${section.toUpperCase()}</strong>.</p>`;
         tutorialSteps.push({
             title: section.toUpperCase(),
             content: content
